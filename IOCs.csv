@@ -1,18 +1,18 @@
 Type,Value,Description,Reference
-IPv4,46.235.180.85,IP asociada a servidor Nginx (lazyy.fr) - observada en defacements,https://github.com/Condor2026/cti-xv-dpx
-IPv4,92.222.139.190,IP asociada a servidor Apache - observada en ataques,https://github.com/Condor2026/cti-xv-dpx
-IPv4,81.194.43.208,IP asociada a Université Paris 13 - defacement,https://github.com/Condor2026/cti-xv-dpx
-IPv4,185.125.27.212,IP asociada a servidor Apache (lespartisans.ch) - defacement,https://github.com/Condor2026/cti-xv-dpx
-IPv4,185.49.20.100,IP asociada a servidor Apache - actividad genérica,https://github.com/Condor2026/cti-xv-dpx
-IPv4,185.221.182.212,IP asociada a LiteSpeed (caimans72.fr) - defacement,https://github.com/Condor2026/cti-xv-dpx
-URL,https://2025.lespartisans.ch/media/com_pagebuilderck/gfonts/hacked.html,URL de defacement - mensaje "HACKED BY X-VDP-X",https://github.com/Condor2026/cti-xv-dpx
-URL,https://urit.univ-paris13.fr/Hackedbyxvdpx.txt,URL de defacement - archivo de texto con firma,https://github.com/Condor2026/cti-xv-dpx
-Domain,@xvdpx6,Perfil de Twitter/X del actor,https://github.com/Condor2026/cti-xv-dpx
-Domain,@diablefire,Canal de Telegram del actor,https://github.com/Condor2026/cti-xv-dpx
-Telegram-ID,6321438384,ID de usuario de diable'fire en Telegram,https://github.com/Condor2026/cti-xv-dpx
-Telegram-Channel,3280873247,ID del canal "Team X_VDP_X",https://github.com/Condor2026/cti-xv-dpx
-File,wp-config.php,Archivo de configuración exfiltrado (credenciales de BD),https://github.com/Condor2026/cti-xv-dpx
-File,s3_credentials.txt,Archivo con credenciales AWS S3 exfiltrado,https://github.com/Condor2026/cti-xv-dpx
-File,options_apikeys.txt,Archivo con claves API exfiltrado,https://github.com/Condor2026/cti-xv-dpx
-Pattern,HACKED BY X-VDP-X,Patrón de texto en defacements,https://github.com/Condor2026/cti-xv-dpx
-Pattern,diable'fire — Team: X-VDP-X,Firma del actor en defacements,https://github.com/Condor2026/cti-xv-dpx
+IPv4,46.235.180.85,IP associated with Nginx server (lazyy.fr) - observed in defacements,https://github.com/Condor2026/cti-xv-dpx
+IPv4,92.222.139.190,IP associated with Apache server - observed in attacks,https://github.com/Condor2026/cti-xv-dpx
+IPv4,81.194.43.208,IP associated with Université Paris 13 - defacement,https://github.com/Condor2026/cti-xv-dpx
+IPv4,185.125.27.212,IP associated with Apache server (lespartisans.ch) - defacement,https://github.com/Condor2026/cti-xv-dpx
+IPv4,185.49.20.100,IP associated with Apache server - generic activity,https://github.com/Condor2026/cti-xv-dpx
+IPv4,185.221.182.212,IP associated with LiteSpeed (caimans72.fr) - defacement,https://github.com/Condor2026/cti-xv-dpx
+URL,https://2025.lespartisans.ch/media/com_pagebuilderck/gfonts/hacked.html,Defacement URL - "HACKED BY X-VDP-X" message,https://github.com/Condor2026/cti-xv-dpx
+URL,https://urit.univ-paris13.fr/Hackedbyxvdpx.txt,Defacement URL - text file with signature,https://github.com/Condor2026/cti-xv-dpx
+Domain,@xvdpx6,Actor's Twitter/X profile,https://github.com/Condor2026/cti-xv-dpx
+Domain,@diablefire,Actor's Telegram channel,https://github.com/Condor2026/cti-xv-dpx
+Telegram-ID,6321438384,User ID of diable'fire on Telegram,https://github.com/Condor2026/cti-xv-dpx
+Telegram-Channel,3280873247,Channel ID of "Team X_VDP_X",https://github.com/Condor2026/cti-xv-dpx
+File,wp-config.php,Exfiltrated configuration file (database credentials),https://github.com/Condor2026/cti-xv-dpx
+File,s3_credentials.txt,Exfiltrated file with AWS S3 credentials,https://github.com/Condor2026/cti-xv-dpx
+File,options_apikeys.txt,Exfiltrated file with API keys,https://github.com/Condor2026/cti-xv-dpx
+Pattern,HACKED BY X-VDP-X,Text pattern in defacements,https://github.com/Condor2026/cti-xv-dpx
+Pattern,diable'fire — Team: X-VDP-X,Actor signature in defacements,https://github.com/Condor2026/cti-xv-dpx
