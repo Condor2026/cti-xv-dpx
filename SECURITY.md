@@ -1,70 +1,70 @@
-# 🔒 Política de Seguridad - Dossier CTI: X-VDP-X (diable'fire)
+# 🔒 Security Policy - CTI Dossier: X-VDP-X (diable'fire)
 
-## 📌 Descargo de Responsabilidad (Security Disclaimer)
+## 📌 Security Disclaimer
 
-> **Este repositorio contiene un informe de inteligencia basado en fuentes abiertas (OSINT).**
+> **This repository contains an intelligence report based on open-source intelligence (OSINT).**
 >
-> - **No es software:** Este repositorio **no contiene código ejecutable**, herramientas de explotación, malware ni scripts ofensivos. Es un documento de análisis y concienciación.
-> - **No fomenta actividades ilícitas:** La información aquí proporcionada tiene fines exclusivamente educativos, defensivos y de investigación para profesionales de ciberseguridad, equipos SOC, CSIRT, CERT y autoridades competentes.
-> - **Atribuciones no confirmadas:** Todas las atribuciones a actores de amenazas se basan en **reivindicaciones públicas auto declaradas** y no constituyen prueba judicial. La verificación independiente está pendiente de confirmación forense.
-> - **Uso ético:** El uso indebido de esta información para cometer delitos, causar daños o vulnerar la privacidad de terceros es responsabilidad exclusiva del usuario.
-> - **Sin garantía:** La información se proporciona "tal cual", sin garantía de exactitud o integridad. El autor no se hace responsable del mal uso que se pueda dar a la misma.
+> - **Not software:** This repository **contains no executable code**, exploit tools, malware, or offensive scripts. It is an analysis and awareness document.
+> - **No illegal activity encouraged:** The information provided herein is for **educational, defensive, and research purposes only** for cybersecurity professionals, SOC teams, CSIRT, CERT, and competent authorities.
+> - **Unconfirmed attributions:** All attributions to threat actors are based on **public self-proclaimed claims** and do not constitute judicial evidence. Independent verification is pending forensic confirmation.
+> - **Ethical use:** Misuse of this information to commit crimes, cause harm, or violate third-party privacy is the sole responsibility of the user.
+> - **No warranty:** The information is provided "as is," without warranty of accuracy or completeness. The author assumes no responsibility for any misuse.
 
 ---
 
-## 🛡️ Reporte de vulnerabilidades o problemas
+## 🛡️ Reporting Vulnerabilities or Issues
 
-**Este repositorio no contiene código ejecutable**, por lo que **no se aceptan reportes de vulnerabilidades de software** en el sentido tradicional (CVE, exploits, etc.).
+**This repository contains no executable code**, therefore **software vulnerability reports (CVEs, exploits, etc.) are not accepted** in the traditional sense.
 
-Sin embargo, si has identificado:
+However, if you have identified:
 
-- ❌ **Errores factuales** en el informe (datos incorrectos, fechas erróneas, víctimas mal identificadas).
-- ❌ **Omisiones importantes** que deban ser incluidas para mejorar el análisis.
-- ❌ **IOCs desactualizados** o nuevos indicadores de compromiso que hayas detectado.
+- ❌ **Factual errors** in the report (incorrect data, wrong dates, misidentified victims).
+- ❌ **Important omissions** that should be included to improve the analysis.
+- ❌ **Outdated IOCs** or new indicators of compromise you have detected.
 
-Por favor, abre un **Issue** en este repositorio con la evidencia correspondiente (fuentes públicas) o contacta directamente al autor a través de los canales indicados en el perfil.
-
----
-
-## 📋 Proceso para contribuir con correcciones
-
-1. Abre un **Issue** en el repositorio.
-2. Describe claramente el error o la información faltante.
-3. Aporta fuentes públicas verificables (enlaces, capturas, etc.).
-4. Si tienes formación en ciberseguridad, puedes enviar un **Pull Request** con la corrección propuesta.
-5. El autor revisará y validará la información antes de aceptarla.
+Please open an **Issue** in this repository with corresponding evidence (public sources) or contact the author directly through the channels indicated in the profile.
 
 ---
 
-## 📧 Contacto para asuntos de seguridad
+## 📋 Process for Contributing Corrections
 
-Si necesitas comunicarte por razones de seguridad o coordinación con autoridades, utiliza los siguientes canales (todos cifrados):
-
-- **Correo electrónico:** `KiraSecuruty@proton.me`
-- **Twitter/X:** `@PurpleCondors` (solo para coordinación profesional)
-- **Telegram:** Privado 
-
----
-
-## 🔐 Política de Divulgación Responsable
-
-Dado que este repositorio **no contiene vulnerabilidades de software**, no aplica una política de divulgación responsable tradicional. Sin embargo:
-
-- Si encuentras información que pueda comprometer la seguridad de terceros o contener datos personales sensibles, **notifícalo de inmediato** al autor para su revisión y posible eliminación.
-- No se publicarán datos personales ni información que pueda poner en riesgo a víctimas o testigos.
+1. Open an **Issue** in the repository.
+2. Clearly describe the error or missing information.
+3. Provide verifiable public sources (links, screenshots, etc.).
+4. If you have cybersecurity training, you may submit a **Pull Request** with the proposed correction.
+5. The author will review and validate the information before accepting it.
 
 ---
 
-## ⚖️ Marco Legal de Referencia
+## 📧 Contact for Security Matters
 
-Este informe incluye un **Anexo Jurídico completo** con el análisis de los delitos potenciales bajo el **Código Penal Francés (arts. 323-1 a 323-8)** , así como referencias a la **Ley Godfrain**, la **LOPPSI 2** y el **RGPD**.
+If you need to communicate for security reasons or coordination with authorities, use the following channels (all encrypted):
 
-Para cualquier acción legal, contacta con las autoridades competentes:
+- **Email:** `KiraSecuruty@proton.me`
+- **Twitter/X:** `@PurpleCondors` (professional coordination only)
+- **Telegram:** Private (request via email)
+
+---
+
+## 🔐 Responsible Disclosure Policy
+
+Since this repository **contains no software vulnerabilities**, a traditional responsible disclosure policy does not apply. However:
+
+- If you find information that could compromise third-party security or contain sensitive personal data, **notify the author immediately** for review and possible removal.
+- No personal data or information that could put victims or witnesses at risk will be published.
+
+---
+
+## ⚖️ Legal Framework Reference
+
+This report includes a **complete Legal Annex** with analysis of potential offenses under the **French Penal Code (arts. 323-1 to 323-8)** , as well as references to the **Godfrain Law**, **LOPPSI 2**, and **GDPR**.
+
+For any legal action, contact the competent authorities:
 - **ANSSI:** https://cyber.gouv.fr
-- **OCLCTIC/OFAC:** Oficina Central de Lucha contra la Cibercriminalidad (Francia)
-- **CERT-FR:** Centro de Respuesta a Incidentes de Seguridad
+- **OCLCTIC/OFAC:** Central Office for the Fight against Cybercrime (France)
+- **CERT-FR:** Computer Emergency Response Team France
 
 ---
 
-**Última actualización:** 23 de julio de 2026  
-**Autor:** El Cóndor (@Panda_Sec_Intel)
+**Last updated:** July 23, 2026  
+**Author:** El Cóndor (@Panda_Sec_Intel)
