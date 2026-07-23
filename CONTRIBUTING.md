@@ -1,29 +1,34 @@
-# Guía para Contribuir al Dossier CTI X-VDP-X
+# Contributing to the X-VDP-X CTI Dossier
 
-Gracias por tu interés en mejorar este repositorio. Toda ayuda es bienvenida, siempre que se mantenga el rigor técnico y la ética de investigación.
+First off, thank you for considering contributing to this repository. All help is welcome, as long as it maintains technical rigor and research ethics.
 
-## ¿Cómo puedes contribuir?
+## How Can You Contribute?
 
-1. **Corrección de errores:** Si encuentras algún dato incorrecto (IPs, fechas, víctimas), abre un **Issue** con la evidencia correspondiente.
-2. **Actualización de IOCs:** Si detectas nuevas IPs, dominios o patrones asociados a X-VDP-X, envía un **Pull Request** actualizando los archivos `IOCs.csv` y `IOCs.stix`.
-3. **Ampliación del informe:** Si tienes información adicional sobre el actor (nuevas víctimas, TTPs, etc.), puedes proponer cambios en el `README.md`.
-4. **Traducciones:** Si quieres traducir el dossier a otros idiomas, siéntete libre de crear una rama o copia.
+1. **Error correction:** If you find any incorrect data (IPs, dates, victims), open an **Issue** with the corresponding evidence.
+2. **IOC updates:** If you detect new IPs, domains, or patterns associated with X-VDP-X, submit a **Pull Request** updating the `IOCs.csv` and `IOCs.stix` files.
+3. **Report expansion:** If you have additional information about the actor (new victims, TTPs, etc.), you can propose changes to the `README.md`.
+4. **Translations:** If you want to translate the dossier into other languages, feel free to create a branch or copy.
 
-## Reglas básicas
+## Basic Rules
 
-- **Fuentes:** Solo se aceptan datos provenientes de OSINT verificable (no información confidencial ni filtrada).
-- **Formato:** Mantén la estructura de Markdown y los formatos CSV/STIX tal como están.
-- **Atribución:** Siempre cita tus fuentes y respeta la licencia MIT.
+- **Sources:** Only data from verifiable OSINT sources will be accepted (no confidential or leaked information).
+- **Format:** Maintain the Markdown structure and CSV/STIX formats as they are.
+- **Attribution:** Always cite your sources and respect the MIT license.
 
-## Proceso
+## Process
 
-1. Haz un fork del repositorio.
-2. Crea una rama con un nombre descriptivo (`fix-ip-error` o `add-new-victim`).
-3. Realiza tus cambios y asegúrate de que siguen el formato.
-4. Envía un Pull Request con una descripción clara de lo que cambiaste.
+1. Fork the repository.
+2. Create a branch with a descriptive name (`fix-ip-error` or `add-new-victim`).
+3. Make your changes and ensure they follow the established format.
+4. Submit a Pull Request with a clear description of what you changed.
 
-## Contacto
+## Contact
 
-Para dudas o aportaciones significativas, puedes contactarme a través de los canales habituales de OSINT.
+For questions or significant contributions, you can contact me through the usual OSINT channels.
 
-¡Gracias por ayudar a mantener viva la inteligencia de código abierto!
+Thank you for helping to keep open-source intelligence alive!
+
+---
+
+**Author:** El Cóndor (@Panda_Sec_Intel)  
+**Repository:** https://github.com/Condor2026/cti-xv-dpx
