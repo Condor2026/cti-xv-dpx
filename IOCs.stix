@@ -1,0 +1,83 @@
+{
+  "type": "bundle",
+  "id": "bundle--8c2a2e4a-5f8a-4f8a-9c2a-2e4a5f8a9c2a",
+  "spec_version": "2.1",
+  "objects": [
+    {
+      "type": "indicator",
+      "id": "indicator--a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "spec_version": "2.1",
+      "name": "IP de C2 / Servidor de defacement X-VDP-X",
+      "description": "IP asociada al actor X-VDP-X (diable'fire) en ataques contra France Cyber Défense y otras entidades francesas.",
+      "pattern": "[ipv4-addr:value = '46.235.180.85']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["malicious-activity", "defacement"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "spec_version": "2.1",
+      "name": "URL de defacement de X-VDP-X",
+      "description": "URL que muestra el defacement con la firma del actor.",
+      "pattern": "[url:value = 'https://2025.lespartisans.ch/media/com_pagebuilderck/gfonts/hacked.html']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["malicious-activity", "defacement"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "spec_version": "2.1",
+      "name": "Patrón de texto en defacements",
+      "description": "Firma textual utilizada por X-VDP-X en todos sus defacements.",
+      "pattern": "[file:name = 'HACKED BY X-VDP-X'] OR [artifact:payload_bin = 'diable\'fire — Team: X-VDP-X']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["malicious-activity", "defacement"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "threat-actor",
+      "id": "threat-actor--d4e5f6a7-b8c9-0123-def4-567890123456",
+      "spec_version": "2.1",
+      "name": "X-VDP-X",
+      "aliases": ["diable'fire", "diablefire", "Diable Fire"],
+      "description": "Actor individual o pequeño colectivo con base autodeclarada en París, especializado en defacements y exfiltración de datos de CMS vulnerables.",
+      "labels": ["defacer", "script-kiddie"],
+      "confidence": 60,
+      "sophistication": "medium-low",
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--e5f6a7b8-c9d0-1234-ef56-789012345678",
+      "spec_version": "2.1",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "target_ref": "threat-actor--d4e5f6a7-b8c9-0123-def4-567890123456"
+    }
+  ]
+}
