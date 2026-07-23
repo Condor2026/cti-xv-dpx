@@ -1,10 +1,11 @@
-# 🧠 Dossier CTI: X-VDP-X (diable'fire) — Actor que apunta a entidades francesas mediante explotación de CMS
+# 🧠 CTI Dossier: X-VDP-X (diable'fire) — Threat Actor Targeting French Entities via CMS Exploitation
+
 ![Dossier CTI](https://img.shields.io/badge/Dossier-CTI-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 ![License](https://badgen.net/badge/license/MIT/blue)
-![Language](https://img.shields.io/badge/language-Spanish-blue)
-![OSINT](https://img.shields.io/badge/OSINT-Sí-brightgreen)
+![Language](https://img.shields.io/badge/language-English-blue)
+![OSINT](https://img.shields.io/badge/OSINT-Yes-brightgreen)
 ![Threat Intel](https://img.shields.io/badge/Threat%20Intel-Enabled-blue)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT&CK-Mapped-orange)
 ![IOCs](https://img.shields.io/badge/IOCs-Available-green)
@@ -13,48 +14,48 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=X-VDP-X+%7C+diable'fire;France+Cyber+D%C3%A9fense+%7C+An%C3%A1lisis+CTI;OSINT+%7C+MITRE+ATT%26CK;IOCs+%7C+Marco+Legal+Franc%C3%A9s;Dossier+completo+para+la+comunidad" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=X-VDP-X+%7C+diable'fire;France+Cyber+D%C3%A9fense+%7C+CTI+Analysis;OSINT+%7C+MITRE+ATT%26CK;IOCs+%7C+French+Legal+Framework;Complete+dossier+for+the+community" alt="Typing animation" />
 </p>
 
 ![DefenseFrance](CondorPandaDefense.jpg)
 
-**Autor:** El Cóndor (@Panda_Sec_Intel)  
-**Fecha:** 23 de julio de 2026  
-**Estado:** Análisis activo / Inteligencia de fuentes abiertas (OSINT)  
-**Licencia:** Uso libre para fines defensivos y de investigación
+**Author:** El Cóndor (@Panda_Sec_Intel)  
+**Date:** July 23, 2026  
+**Status:** Active Analysis / Open Source Intelligence (OSINT)  
+**License:** Free for defensive and research purposes
 
 ---
 
-## 📌 Aviso Legal / Disclaimer
+## 📌 Disclaimer
 
-> **Este dossier se basa exclusivamente en inteligencia de fuentes abiertas (OSINT), publicaciones en redes sociales públicas y plataformas de inteligencia de amenazas.**
-> Está destinado a la comunidad global de ciberseguridad para comprender las TTPs, mejorar las posturas defensivas y realizar búsqueda proactiva de amenazas.
-> El análisis legal proporcionado es una interpretación contextual de la ley francesa pública con fines educativos y no constituye asesoramiento legal. Todas las atribuciones se basan en reivindicaciones auto declaradas por el actor de amenazas.
-
----
-
-## 📋 Resumen Ejecutivo
-
-El presente informe documenta y analiza al actor de amenazas identificado como **X-VDP-X** (alias **diable'fire**), responsable de la reciente brecha contra **France Cyber Défense** (francecyberdefense.fr), proveedor francés especializado en ciberseguridad, ocurrida el 23 de julio de 2026.
-
-X-VDP-X es un **actor individual o pequeño colectivo** de perfil medio-bajo, operativo principalmente desde mediados de 2026, con base autodeclarada en **París, Francia**. Su modus operandi se caracteriza por la explotación de vulnerabilidades comunes en CMS (WordPress/Joomla), **defacements** y exfiltración de bases de datos con fines de **notoriedad y posible monetización** en foros clandestinos.
-
-**No se atribuye a ningún estado-nación** (China, Rusia, Irán, etc.) ni presenta el nivel de sofisticación característico de APT. Su actividad, aunque ruidosa y visible, representa una amenaza de **riesgo medio-bajo** para infraestructuras críticas bien protegidas, pero **alta para PYMEs, universidades y sitios web con CMS desactualizados**.
+> **This dossier is based exclusively on Open Source Intelligence (OSINT), public social media posts, and threat intelligence platforms.**
+> It is intended for the global cybersecurity community to understand the TTPs, improve defensive postures, and conduct proactive threat hunting.
+> The legal analysis provided is a contextual interpretation of public French law for educational purposes and does not constitute legal advice. All attributions are based on self-proclaimed claims by the threat actor.
 
 ---
 
-## 2. PERFIL DEL ACTOR
+## 📋 Executive Summary
 
-### 2.1 Identidad y Alias
+This report documents and analyzes the threat actor identified as **X-VDP-X** (alias **diable'fire**), responsible for the recent breach against **France Cyber Défense** (francecyberdefense.fr), a French cybersecurity services provider, on July 23, 2026.
 
-| Campo | Valor |
+X-VDP-X is an **individual or small collective** with a medium-low profile, operational primarily since mid-2026, with a self-declared base in **Paris, France**. Their modus operandi is characterized by exploiting common CMS vulnerabilities (WordPress/Joomla), **defacements**, and database exfiltration for **notoriety and potential monetization** in underground forums.
+
+**Not attributed to any nation-state** (China, Russia, Iran, etc.) nor does it exhibit the sophistication level typical of APTs. Their activity, while noisy and visible, represents a **medium-low risk** for well-protected critical infrastructures, but **high risk for SMEs, universities, and websites running outdated CMS**.
+
+---
+
+## 2. ACTOR PROFILE
+
+### 2.1 Identity and Aliases
+
+| Field | Value |
 |-------|-------|
-| **Alias principal** | X-VDP-X |
-| **Alias secundario** | diable'fire (también escrito "diable fire" o "diablefire") ID TELEGRAM / 6321438384 |
-| **Plataformas activas** | Telegram and Twitter, group name: Team X_VDP_X: (@xvdpx6). Group telegram Id 3280873247 |
-| **Ubicación autodeclarada** | París, Francia |
-| **Perfil estimado** | Individuo o pequeño colectivo (2-3 personas) |
-| **Nivel técnico** | Intermedio-bajo (script-kiddie avanzado / defacer) |
+| **Primary Alias** | X-VDP-X |
+| **Secondary Alias** | diable'fire (also written "diable fire" or "diablefire") TELEGRAM ID / 6321438384 |
+| **Active Platforms** | Telegram and Twitter, group name: Team X_VDP_X: (@xvdpx6). Group telegram Id 3280873247 |
+| **Self-declared Location** | Paris, France |
+| **Estimated Profile** | Individual or small collective (2-3 persons) |
+| **Technical Level** | Medium-low (advanced script-kiddie / defacer) |
 
 ```
 This is diable'fire 
@@ -69,7 +70,7 @@ ID: 6321438384
 ᴜsernames:
 |
 ----------------------------------------------------
-Palabras mas usadas en Telegram, diable'ƒire (@diablefire) often uses this words: 
+Most used words on Telegram, diable'ƒire (@diablefire) often uses this words: 
 ├3 - 3 informations
 ├2 - 3 free
 ├1 - 2 datasec, merci
@@ -96,31 +97,31 @@ Team X-VDP-X
 -------------------------------------
 ```
 
-### 2.2 Estilo Operativo
+### 2.2 Operational Style
 
-El actor sigue un patrón consistente en todas sus operaciones:
+The actor follows a consistent pattern across all operations:
 
-1. **Reconocimiento** de vulnerabilidades en CMS (WordPress, Joomla) — plugins desactualizados, configuraciones débiles, credenciales por defecto.
-2. **Compromiso** mediante configuración/admin mistake o intrusiones en servidor web.
-3. **Defacement** de la página principal, reemplazándola con el mensaje "HACKED BY X-VDP-X".
-4. **Exfiltración** de bases de datos completas, archivos de configuración (`wp-config.php`), credenciales y logs.
-5. **Publicación** de pruebas (screenshots, dumps parciales) en redes sociales.
-6. **Oferta de venta** de los datos en foros clandestinos o Telegram.
+1. **Reconnaissance** of CMS vulnerabilities (WordPress, Joomla) — outdated plugins, weak configurations, default credentials.
+2. **Compromise** through configuration/admin mistakes or web server intrusions.
+3. **Defacement** of the main page, replacing it with the message "HACKED BY X-VDP-X".
+4. **Exfiltration** of complete databases, configuration files (`wp-config.php`), credentials, and logs.
+5. **Publication** of proof (screenshots, partial dumps) on social networks.
+6. **Offer for sale** of data on underground forums or Telegram.
 
-### 2.3 Motivación
+### 2.3 Motivation
 
-La motivación principal parece ser **notoriedad** y **reconocimiento** dentro de la comunidad de defacers, como lo evidencia su lema recurrente: *"I just want to be the best defacer"*. Secundariamente, existe una vertiente **económica** mediante la venta de accesos y bases de datos exfiltradas. No se ha identificado una ideología política o religiosa clara.
+The primary motivation appears to be **notoriety** and **recognition** within the defacer community, as evidenced by their recurring motto: *"I just want to be the best defacer"*. Secondarily, there is an **economic** aspect through the sale of access and exfiltrated databases. No clear political or religious ideology has been identified.
 
 ---
 
-## 3. VÍCTIMAS REIVINDICADAS (CRONOLOGÍA)
+## 3. CLAIMED VICTIMS (CHRONOLOGY)
 
-X-VDP-X ha reivindicado un número significativo de ataques, con un **foco predominante en Francia** y algunas víctimas internacionales. La siguiente tabla recopila las víctimas confirmadas:
+X-VDP-X has claimed a significant number of attacks, with a **predominant focus on France** and some international victims. The following table compiles confirmed victims:
 
-| Fecha | Víctima | Dominio | Tipo | País | Proof of Concept |
-|-------|---------|---------|------|------|------------------|
+| Date | Victim | Domain | Type | Country | Proof of Concept |
+|------|--------|--------|------|---------|------------------|
 | **23/07/2026** | **France Cyber Défense** | francecyberdefense.fr | Defacement + Data Breach | FR | Config/admin mistake |
-| **23/07/2026** | Université d'Avignon | univ-avignon.fr | Data Breach (41 subdominios, 12.496 cuentas) | FR | — |
+| **23/07/2026** | Université d'Avignon | univ-avignon.fr | Data Breach (41 subdomains, 12,496 accounts) | FR | — |
 | **21/06/2026** | Caïmans 72 | caimans72.fr | Defacement | FR | Config/admin mistake |
 | **21/06/2026** | brain.lazyy.fr | brain.lazyy.fr | Defacement | FR | Config/admin mistake |
 | **21/06/2026** | auth.urbanflow.lazyy.fr | auth.urbanflow.lazyy.fr | Defacement | FR | Config/admin mistake |
@@ -135,584 +136,544 @@ X-VDP-X ha reivindicado un número significativo de ataques, con un **foco predo
 | **04/07/2026** | Tech Yukon | — | Defacement | — | — |
 | **04/07/2026** | Twin Towing | — | Defacement | — | — |
 | **04/07/2026** | D2P Graphics | — | Defacement | — | — |
-| **10/02/2026** | Water Research and Innovation Platform (WSIP) | thewsip.mwi.gov.jo | Data Breach (venta de datos) | Jordania | — |
+| **10/02/2026** | Water Research and Innovation Platform (WSIP) | thewsip.mwi.gov.jo | Data Breach (data sale) | Jordan | — |
 | **03/06/2026** | newfarmliving.com | newfarmliving.com | Defacement | — | — |
 
-### 3.1 Análisis del Patrón de Víctimas
+### 3.1 Victim Pattern Analysis
 
-- **Concentración geográfica:** >70% de las víctimas están en Francia, lo que sugiere que el actor opera desde territorio francés o tiene un conocimiento privilegiado del ecosistema digital francés.
-- **Sectores afectados:** Universidades, empresas de tecnología, sitios gubernamentales (Jordania), clubes deportivos, estudios de diseño.
-- **Vector común:** Todos los sitios comprometidos utilizan **CMS vulnerables** (WordPress, Joomla) con **configuraciones administrativas deficientes**.
+- **Geographic Concentration:** >70% of victims are in France, suggesting the actor operates from French territory or has privileged knowledge of the French digital ecosystem.
+- **Affected Sectors:** Universities, technology companies, government sites (Jordan), sports clubs, design studios.
+- **Common Vector:** All compromised sites use **vulnerable CMS** (WordPress, Joomla) with **deficient administrative configurations**.
 
 ---
 
-## 4. ANÁLISIS TÉCNICO DE LA BRECHA CONTRA FRANCE CYBER DÉFENSE
+## 4. TECHNICAL ANALYSIS OF THE FRANCE CYBER DÉFENSE BREACH
 
-### 4.1 Resumen del Incidente
+### 4.1 Incident Summary
 
-El 23 de julio de 2026, el sitio web de France Cyber Défense (francecyberdefense.fr) fue comprometido por X-VDP-X. La página de inicio fue reemplazada por un mensaje que declaraba: **"HACKED BY X-VDP-X"**, con una reivindicación atribuida a diable'fire.
+On July 23, 2026, the France Cyber Défense website (francecyberdefense.fr) was compromised by X-VDP-X. The homepage was replaced with a message declaring: **"HACKED BY X-VDP-X"**, with attribution to diable'fire.
 
-El actor afirma haber **infiltrado la red** y **exfiltrado datos** sensibles. Aunque estas declaraciones requieren verificación independiente, las pruebas publicadas (capturas de pantalla, listados de archivos) sugieren un compromiso **más allá del mero defacement**.
+The actor claims to have **infiltrated the network** and **exfiltrated sensitive data**. Although these claims require independent verification, published evidence (screenshots, file listings) suggests compromise **beyond mere defacement**.
 
-### 4.2 Servicios y Componentes Comprometidos
+### 4.2 Compromised Services and Components
 
-El sitio comprometido operaba bajo **WordPress** con múltiples extensiones y componentes:
+The compromised site ran **WordPress** with multiple extensions and components:
 
-| Componente | Función | Riesgo Asociado |
-|------------|---------|-----------------|
-| **WordPress** | CMS principal | Exposición de configuración y usuarios |
-| **WooCommerce** | Plataforma de comercio electrónico | Datos de clientes, órdenes, sesiones |
-| **Simply Schedule Appointments (SSA)** | Gestión de citas | Información de rendez-vous/clientes |
-| **Slider Revolution** | Plugin de presentaciones | Posibles vulnerabilidades conocidas |
-| **Rank Math SEO** | Plugin SEO | Metadatos y configuración |
-| **Action Scheduler** | Gestión de tareas programadas | Logs y procesos internos |
+| Component | Function | Associated Risk |
+|-----------|----------|-----------------|
+| **WordPress** | Main CMS | Configuration and user exposure |
+| **WooCommerce** | E-commerce platform | Customer data, orders, sessions |
+| **Simply Schedule Appointments (SSA)** | Appointment management | Rendezvous/client information |
+| **Slider Revolution** | Presentation plugin | Known vulnerabilities |
+| **Rank Math SEO** | SEO plugin | Metadata and configuration |
+| **Action Scheduler** | Scheduled task management | Logs and internal processes |
 
-### 4.3 Archivos Exfiltrados (Según Reivindicación)
+### 4.3 Exfiltrated Files (According to Claim)
 
-El actor publicó una lista de archivos extraídos que incluye:
+The actor published a list of extracted files including:
 
-| Archivo | Contenido Potencial | Nivel de Sensibilidad |
-|---------|---------------------|----------------------|
-| `wp-config.php` | Configuración de WordPress, credenciales de BD | **CRÍTICO** |
-| `users.txt` | Lista de usuarios WordPress | ALTO |
-| `usermeta.txt` | Metadatos de usuarios | ALTO |
-| `server_info.txt` | Información del servidor | MEDIO |
-| `options_apikeys.txt` | Claves API | **CRÍTICO** |
-| `s3_credentials.txt` | Credenciales de almacenamiento S3 | **CRÍTICO** |
-| `woocommerce-sessions.txt` | Sesiones de clientes | ALTO |
-| `wp_woocommerce_log.txt` | Logs de WooCommerce | MEDIO |
-| `wp_wc_orders_meta.txt` | Metadatos de órdenes | ALTO |
-| `ssa-appointments.txt` | Citas agendadas | ALTO |
+| File | Potential Content | Sensitivity Level |
+|------|-------------------|-------------------|
+| `wp-config.php` | WordPress configuration, database credentials | **CRITICAL** |
+| `users.txt` | WordPress user list | HIGH |
+| `usermeta.txt` | User metadata | HIGH |
+| `server_info.txt` | Server information | MEDIUM |
+| `options_apikeys.txt` | API keys | **CRITICAL** |
+| `s3_credentials.txt` | S3 storage credentials | **CRITICAL** |
+| `woocommerce-sessions.txt` | Customer sessions | HIGH |
+| `wp_woocommerce_log.txt` | WooCommerce logs | MEDIUM |
+| `wp_wc_orders_meta.txt` | Order metadata | HIGH |
+| `ssa-appointments.txt` | Scheduled appointments | HIGH |
 
-La presencia de `s3_credentials.txt` y `options_apikeys.txt` es **particularmente preocupante**, ya que sugiere que el actor podría haber obtenido acceso a **infraestructura en la nube** y **servicios de terceros**.
+The presence of `s3_credentials.txt` and `options_apikeys.txt` is **particularly concerning**, suggesting the actor may have gained access to **cloud infrastructure** and **third-party services**.
 
-### 4.4 Técnicas, Tácticas y Procedimientos (TTPs)
+### 4.4 Techniques, Tactics, and Procedures (TTPs)
 
-Basado en el análisis de los ataques de X-VDP-X, se identifican las siguientes TTPs según el marco MITRE ATT&CK:
+Based on the analysis of X-VDP-X attacks, the following TTPs are identified according to the MITRE ATT&CK framework:
 
-| Táctica | Técnica | Código MITRE | Evidencia |
-|---------|---------|--------------|-----------|
-| **Reconocimiento** | Escaneo de vulnerabilidades | T1595 | Patrón de ataque a CMS vulnerables |
-| **Acceso Inicial** | Explotación de aplicación pública | T1190 | WordPress/Joomla vulnerabilities |
-| **Acceso Inicial** | Credenciales por defecto | T1078 | "Configuration/admin mistake" |
-| **Persistencia** | Creación de cuenta | T1136 | Acceso a paneles admin |
-| **Exfiltración** | Exfiltración a través de C2 | T1041 | Publicación de dumps en redes |
-| **Impacto** | Defacement | T1491 | "HACKED BY X-VDP-X" |
-| **Impacto** | Data Destruction (parcial) | T1485 | Alteración de contenido |
+| Tactic | Technique | MITRE Code | Evidence |
+|--------|-----------|------------|----------|
+| **Reconnaissance** | Vulnerability Scanning | T1595 | Pattern of targeting vulnerable CMS |
+| **Initial Access** | Exploit Public-Facing Application | T1190 | WordPress/Joomla vulnerabilities |
+| **Initial Access** | Default Credentials | T1078 | "Configuration/admin mistake" |
+| **Persistence** | Create Account | T1136 | Access to admin panels |
+| **Exfiltration** | Exfiltration over C2 Channel | T1041 | Publication of dumps on networks |
+| **Impact** | Defacement | T1491 | "HACKED BY X-VDP-X" |
+| **Impact** | Data Destruction (partial) | T1485 | Content alteration |
 
-**Nivel de sofisticación:** **BAJO-MEDIO**. No se observan técnicas avanzadas como:
+**Sophistication Level:** **LOW-MEDIUM**. No advanced techniques are observed such as:
 - Zero-days
-- Malware personalizado
-- Técnicas de evasión avanzadas
-- Movimiento lateral complejo
+- Custom malware
+- Advanced evasion techniques
+- Complex lateral movement
 - Ransomware
 
 ---
 
-## 5. INDICADORES DE COMPROMISO (IOCs)
+## 5. INDICATORS OF COMPROMISE (IOCs)
 
-### 5.1 Direcciones IP Identificadas
+### 5.1 Identified IP Addresses
 
-| IP | Localización | Asociación |
-|----|--------------|------------|
-| `46.235.180.85` | Francia | Servidor Nginx (lazyy.fr) |
-| `92.222.139.190` | Francia | Servidor Apache |
-| `81.194.43.208` | Francia | Servidor Apache (Université Paris 13) |
-| `185.125.27.212` | Suiza | Servidor Apache (lespartisans.ch) |
-| `185.49.20.100` | Francia | Servidor Apache |
-| `185.221.182.212` | Francia | Servidor LiteSpeed (caimans72.fr) |
+| IP | Location | Association |
+|----|----------|-------------|
+| `46.235.180.85` | France | Nginx server (lazyy.fr) |
+| `92.222.139.190` | France | Apache server |
+| `81.194.43.208` | France | Apache server (Université Paris 13) |
+| `185.125.27.212` | Switzerland | Apache server (lespartisans.ch) |
+| `185.49.20.100` | France | Apache server |
+| `185.221.182.212` | France | LiteSpeed server (caimans72.fr) |
 
-### 5.2 Dominios y URLs Asociados
+### 5.2 Associated Domains and URLs
 
-- **Perfil X/Twitter:** `@xvdpx6` (o variaciones `@6xvdpx`)
-- **Canal Telegram:** `@diablefire`
-- **URLs de defacement:**
+- **X/Twitter Profile:** `@xvdpx6` (or variations `@6xvdpx`)
+- **Telegram Channel:** `@diablefire`
+- **Defacement URLs:**
   - `https://2025.lespartisans.ch/media/com_pagebuilderck/gfonts/hacked.html`
   - `https://urit.univ-paris13.fr/Hackedbyxvdpx.txt`
 
-### 5.3 Patrones de Defacement
+### 5.3 Defacement Patterns
 
-- **Mensaje característico:** "HACKED BY X-VDP-X"
-- **Firma:** "diable'fire — Team: X-VDP-X"
-- **Lema:** "I just want to be the best defacer"
+- **Characteristic Message:** "HACKED BY X-VDP-X"
+- **Signature:** "diable'fire — Team: X-VDP-X"
+- **Motto:** "I just want to be the best defacer"
 
 ---
 
-## 6. EVALUACIÓN DE AMENAZA
+## 6. THREAT ASSESSMENT
 
-### 6.1 Matriz de Riesgo
+### 6.1 Risk Matrix
 
-| Dimensión | Evaluación | Justificación |
+| Dimension | Assessment | Justification |
 |-----------|------------|---------------|
-| **Capacidad técnica** | Baja-Media | Explota vulnerabilidades conocidas, sin malware avanzado |
-| **Capacidad de impacto** | Media | Puede exfiltrar datos sensibles y causar daño reputacional |
-| **Intención maliciosa** | Media | Busca notoriedad y beneficio económico |
-| **Persistencia** | Media | Activo desde febrero 2026, con picos en junio-julio |
-| **Alcance geográfico** | Media | Foco en Francia, con incursiones internacionales |
-| **Riesgo para infraestructuras críticas** | Bajo | No ataca OIV (Operadores de Importancia Vital) |
-| **Riesgo para PYMEs/universidades** | **Alto** | Son el blanco principal del actor |
+| **Technical capability** | Low-Medium | Exploits known vulnerabilities, no advanced malware |
+| **Impact capability** | Medium | Can exfiltrate sensitive data and cause reputational damage |
+| **Malicious intent** | Medium | Seeks notoriety and economic benefit |
+| **Persistence** | Medium | Active since February 2026, with peaks in June-July |
+| **Geographic scope** | Medium | Focus on France, with international incursions |
+| **Risk to critical infrastructures** | Low | Does not attack OIV (Operators of Vital Importance) |
+| **Risk to SMEs/universities** | **High** | Primary targets of the actor |
 
-### 6.2 Clasificación de Amenaza
+### 6.2 Threat Classification
 
-X-VDP-X se clasifica como un **actor oportunista de nivel medio-bajo**, comparable a:
+X-VDP-X is classified as a **medium-low level opportunistic actor**, comparable to:
 
-- **Defacers** de la escena underground europea
-- **Script-kiddies avanzados** con conocimientos de CMS
-- **Hacktivistas sin ideología definida**
+- **Defacers** from the European underground scene
+- **Advanced script-kiddies** with CMS knowledge
+- **Hacktivists** without defined ideology
 
-**No es equiparable a:**
-- APT estatales (Mustang Panda, APT28, etc.)
-- Grupos de ransomware sofisticados (LockBit, BlackCat)
-- Hacktivistas pro-rusos (NoName057(16), Killnet)
+**Not comparable to:**
+- State APTs (Mustang Panda, APT28, etc.)
+- Sophisticated ransomware groups (LockBit, BlackCat)
+- Pro-Russian hacktivists (NoName057(16), Killnet)
 
-### 6.3 Impacto Potencial de la Brecha a France Cyber Défense
+### 6.3 Potential Impact of the France Cyber Défense Breach
 
-1. **Reputacional:** Una empresa de ciberseguridad comprometida genera una **pérdida de confianza** significativa entre sus clientes.
-2. **Cadena de suministro:** Las credenciales y claves API exfiltradas podrían utilizarse para **ataques contra clientes** de France Cyber Défense.
-3. **Regulatorio:** Posibles sanciones bajo el **GDPR** si se confirma la exposición de datos personales.
-4. **Operacional:** Interrupción de servicios y necesidad de **auditoría forense** exhaustiva.
-
----
-
-## 7. RECOMENDACIONES ESTRATÉGICAS
-
-### 7.1 Para ANSSI / CERT-FR
-
-1. **Notificación formal:** Asegurar que France Cyber Défense ha notificado el incidente a ANSSI conforme a la normativa vigente.
-2. **Seguimiento activo:** Monitorear las cuentas `@xvdpx6` y `@diablefire` para identificar nuevas víctimas o publicaciones de datos.
-3. **Coordinación internacional:** Contactar con CERT-JO (Jordania) por el incidente contra la plataforma gubernamental de agua.
-4. **Análisis forense:** Solicitar a France Cyber Défense los logs de acceso para identificar el vector de entrada exacto.
-
-### 7.2 Para France Cyber Défense
-
-1. **Contención inmediata:**
-   - Aislar el servidor comprometido.
-   - Rotar **todas** las credenciales y claves API (especialmente las de S3).
-   - Revocar sesiones activas de WordPress/WooCommerce.
-
-2. **Investigación forense:**
-   - Analizar logs de acceso para determinar el vector de entrada.
-   - Identificar qué datos fueron realmente exfiltrados (no solo los reivindicados).
-   - Verificar la integridad de los archivos `wp-config.php` y otros archivos de configuración.
-
-3. **Comunicación:**
-   - Notificar a los clientes afectados (transparencia).
-   - Coordinar con ANSSI para la comunicación pública.
-
-4. **Refuerzo de seguridad:**
-   - Implementar **WAF** (Web Application Firewall).
-   - Activar **MFA** (Multi-Factor Authentication) para todos los accesos administrativos.
-   - Actualizar **todos** los plugins y el núcleo de WordPress.
-   - Realizar **auditoría de seguridad** completa del código y la infraestructura.
-
-### 7.3 Para otras organizaciones francesas
-
-1. **Auditoría de CMS:** Verificar que todos los sitios WordPress/Joomla están actualizados.
-2. **Revisión de configuraciones:** Eliminar credenciales por defecto y archivos de configuración expuestos.
-3. **Monitoreo:** Buscar en logs accesos desde las IPs identificadas (`46.235.180.85`, `92.222.139.190`, etc.).
-4. **Formación:** Sensibilizar al personal sobre riesgos de configuraciones administrativas débiles.
+1. **Reputational:** A compromised cybersecurity company generates significant **loss of trust** among its clients.
+2. **Supply chain:** Exfiltrated credentials and API keys could be used for **attacks against France Cyber Défense clients**.
+3. **Regulatory:** Potential sanctions under **GDPR** if personal data exposure is confirmed.
+4. **Operational:** Service interruption and need for **exhaustive forensic audit**.
 
 ---
 
-## 8. ANÁLISIS DE TENDENCIAS Y PROYECCIONES
+## 7. STRATEGIC RECOMMENDATIONS
 
-### 8.1 Evolución de la Actividad
+### 7.1 For ANSSI / CERT-FR
 
-X-VDP-X muestra un **patrón de actividad creciente**:
+1. **Formal notification:** Ensure France Cyber Défense has notified the incident to ANSSI according to current regulations.
+2. **Active monitoring:** Monitor accounts `@xvdpx6` and `@diablefire` to identify new victims or data publications.
+3. **International coordination:** Contact CERT-JO (Jordan) regarding the incident against the government water platform.
+4. **Forensic analysis:** Request France Cyber Défense access logs to identify the exact entry vector.
 
-- **Febrero 2026:** Primer ataque documentado (WSIP, Jordania)
-- **Junio 2026:** Pico de actividad (>15 defacements en una semana)
-- **Julio 2026:** Escalada a **data breaches** con exfiltración de bases de datos completas
+### 7.2 For France Cyber Défense
 
-Esta trayectoria sugiere que el actor está **ganando confianza y capacidades**. Es probable que continúe atacando objetivos franceses de perfil medio, con posible escalada a:
+1. **Immediate containment:**
+   - Isolate the compromised server.
+   - Rotate **all** credentials and API keys (especially S3 keys).
+   - Revoke active WordPress/WooCommerce sessions.
 
-- **Instituciones educativas** (ya atacadas: Université d'Avignon, Université Paris 13)
-- **PYMEs tecnológicas**
-- **Sitios gubernamentales locales**
+2. **Forensic investigation:**
+   - Analyze access logs to determine the entry vector.
+   - Identify which data was actually exfiltrated (not just claimed).
+   - Verify the integrity of `wp-config.php` and other configuration files.
 
-### 8.2 Potencial de Monetización
+3. **Communication:**
+   - Notify affected clients (transparency).
+   - Coordinate with ANSSI for public communication.
 
-El actor ha demostrado disposición a **vender datos** en foros clandestinos. Es probable que:
+4. **Security reinforcement:**
+   - Implement **WAF** (Web Application Firewall).
+   - Activate **MFA** (Multi-Factor Authentication) for all administrative accesses.
+   - Update **all** plugins and the WordPress core.
+   - Conduct a **complete security audit** of the code and infrastructure.
 
-1. Intente monetizar los datos de France Cyber Défense en **BreachForums** o canales de Telegram.
-2. Ofrezca **accesos persistentes** a los sistemas comprometidos a otros actores.
-3. Escale a **extorsión** si encuentra datos particularmente sensibles.
+### 7.3 For other French organizations
 
----
-
-## 9. FUENTES Y REFERENCIAS
-
-| Fuente | Enlace | Tipo |
-|--------|--------|------|
-| DefacerID — Cyber Attack Reports | https://www.defacer.id | Registro de defacements |
-| FrenchBreaches — France Cyber Défense | https://frenchbreaches.com/alertes/france-cyber-d-fense-mrxd8ygo8ndtxqd9jt3 | Análisis de brecha |
-| FrenchBreaches — Université d'Avignon | https://frenchbreaches.com/alertes/universit-d-avignon-mrxhevofqu9spqmlhu | Análisis de brecha |
-| Brinztech — WSIP Breach | https://www.brinztech.com/breach-alerts/ | Alerta de venta de datos |
-| OSINTxLab | https://www.osintxlab.com | Agregador de amenazas |
-| ANSSI | https://cyber.gouv.fr | Agencia nacional de seguridad |
-
----
-
-## 10. APÉNDICE — GLOSARIO DE TÉRMINOS
-
-| Término | Definición |
-|---------|------------|
-| **Defacement** | Alteración no autorizada del contenido visual de un sitio web |
-| **Data Breach** | Exfiltración no autorizada de datos sensibles |
-| **CMS** | Content Management System (Sistema de Gestión de Contenidos) |
-| **APT** | Advanced Persistent Threat (Amenaza Persistente Avanzada) |
-| **WAF** | Web Application Firewall (Cortafuegos de Aplicaciones Web) |
-| **MFA** | Multi-Factor Authentication (Autenticación Multifactor) |
-| **OIV** | Opérateur d'Importance Vitale (Operador de Importancia Vital) |
-| **IOC** | Indicator of Compromise (Indicador de Compromiso) |
+1. **CMS Audit:** Verify that all WordPress/Joomla sites are updated.
+2. **Configuration review:** Remove default credentials and exposed configuration files.
+3. **Monitoring:** Check logs for accesses from identified IPs (`46.235.180.85`, `92.222.139.190`, etc.).
+4. **Training:** Raise staff awareness about risks of weak administrative configurations.
 
 ---
 
-## ANEXO JURÍDICO — INFORME COMPLEMENTARIO
+## 8. TREND ANALYSIS AND PROJECTIONS
 
-**Delitos Potenciales Cometidos por X-VDP-X (diable'fire) según el Código Penal Francés**
+### 8.1 Activity Evolution
 
-**Fecha de elaboración:** 23 de julio de 2026
+X-VDP-X shows a **pattern of increasing activity**:
+
+- **February 2026:** First documented attack (WSIP, Jordan)
+- **June 2026:** Activity peak (>15 defacements in one week)
+- **July 2026:** Escalation to **data breaches** with complete database exfiltration
+
+This trajectory suggests the actor is **gaining confidence and capabilities**. They are likely to continue targeting medium-profile French objectives, with possible escalation to:
+
+- **Educational institutions** (already attacked: Université d'Avignon, Université Paris 13)
+- **Technology SMEs**
+- **Local government sites**
+
+### 8.2 Monetization Potential
+
+The actor has demonstrated willingness to **sell data** in underground forums. It is likely they will:
+
+1. Attempt to monetize France Cyber Défense data on **BreachForums** or Telegram channels.
+2. Offer **persistent accesses** to compromised systems to other actors.
+3. Escalate to **extortion** if particularly sensitive data is found.
 
 ---
 
-### 1. INTRODUCCIÓN Y FUNDAMENTO JURÍDICO
+## 9. SOURCES AND REFERENCES
 
-El marco jurídico francés para la represión de los ciberataques se articula en torno a los **artículos 323-1 a 323-8 del Código Penal** (Code pénal), resultado de la **Ley Godfrain n° 88-19 del 5 de enero de 1988**, posteriormente reforzada por sucesivas reformas —notablemente la **Ley LOPPSI 2 del 14 de marzo de 2011** y las leyes de 2014 y 2015 que ampliaron las incriminaciones y elevaron las penas.
-
-El concepto de *sistema de tratamiento automatizado de datos* (STAD) no está definido explícitamente por la ley, lo que constituye una opción deliberada del legislador para garantizar la adaptabilidad del texto a la evolución tecnológica. La jurisprudencia retiene una **concepción amplia** que abarca todo conjunto organizado de materiales y software destinados al tratamiento de información: un servidor, una red empresarial, un sitio web, un sistema de mensajería, un objeto conectado o un smartphone.
-
-Las cinco infracciones fundamentales que cubren el conjunto de las **atentados contra los sistemas de información** son:
-1. Acceso fraudulento (art. 323-1)
-2. Entorpecimiento del funcionamiento (art. 323-2)
-3. Atentado contra los datos (art. 323-3)
-4. Puesta a disposición de herramientas de ataque (art. 323-3-1)
-5. Atentado contra sistemas de interés general (art. 323-4-1)
+| Source | Link | Type |
+|--------|------|------|
+| DefacerID — Cyber Attack Reports | https://www.defacer.id | Defacement registry |
+| FrenchBreaches — France Cyber Défense | https://frenchbreaches.com/alertes/france-cyber-d-fense-mrxd8ygo8ndtxqd9jt3 | Breach analysis |
+| FrenchBreaches — Université d'Avignon | https://frenchbreaches.com/alertes/universit-d-avignon-mrxhevofqu9spqmlhu | Breach analysis |
+| Brinztech — WSIP Breach | https://www.brinztech.com/breach-alerts/ | Data sale alert |
+| OSINTxLab | https://www.osintxlab.com | Threat aggregator |
+| ANSSI | https://cyber.gouv.fr | National security agency |
+| **This dossier (GitHub)** | **https://github.com/Condor2026/cti-xv-dpx** | **Official repository** |
 
 ---
 
-### 2. ANÁLISIS DETALLADO DE LOS DELITOS PRINCIPALES
+## 10. APPENDIX — GLOSSARY OF TERMS
 
-#### 2.1 Acceso fraudulento a un sistema de tratamiento automatizado de datos (Art. 323-1)
+| Term | Definition |
+|------|------------|
+| **Defacement** | Unauthorized alteration of a website's visual content |
+| **Data Breach** | Unauthorized exfiltration of sensitive data |
+| **CMS** | Content Management System |
+| **APT** | Advanced Persistent Threat |
+| **WAF** | Web Application Firewall |
+| **MFA** | Multi-Factor Authentication |
+| **OIV** | Opérateur d'Importance Vitale (Operator of Vital Importance) |
+| **IOC** | Indicator of Compromise |
 
-**Texto del artículo:**
+---
+
+## LEGAL ANNEX — COMPLEMENTARY REPORT
+
+**Potential Offenses Committed by X-VDP-X (diable'fire) under the French Penal Code**
+
+**Date:** July 23, 2026
+
+---
+
+### 1. INTRODUCTION AND LEGAL FRAMEWORK
+
+The French legal framework for combating cyberattacks is structured around **articles 323-1 to 323-8 of the Penal Code** (Code pénal), resulting from the **Godfrain Law No. 88-19 of January 5, 1988**, subsequently reinforced by successive reforms — notably the **LOPPSI 2 Law of March 14, 2011** and the laws of 2014 and 2015 that expanded incriminations and increased penalties.
+
+The concept of *automated data processing system* (STAD) is not explicitly defined by law, which is a deliberate choice by the legislator to ensure the adaptability of the text to technological evolution. Jurisprudence maintains a **broad conception** encompassing any organized set of materials and software intended for information processing: a server, a corporate network, a website, a messaging system, a connected object, or a smartphone.
+
+The five fundamental offenses covering all **attacks against information systems** are:
+1. Fraudulent access (art. 323-1)
+2. Impeding system function (art. 323-2)
+3. Data attacks (art. 323-3)
+4. Providing attack tools (art. 323-3-1)
+5. Attacks against systems of general interest (art. 323-4-1)
+
+---
+
+### 2. DETAILED ANALYSIS OF THE MAIN OFFENSES
+
+#### 2.1 Fraudulent Access to an Automated Data Processing System (Art. 323-1)
+
+**Article text:**
 > *« Le fait d'accéder ou de se maintenir, frauduleusement, dans tout ou partie d'un système de traitement automatisé de données est puni de trois ans d'emprisonnement et de 100 000 euros d'amende. »*
 
-**Elementos constitutivos:**
-- **Acceso o mantenimiento:** El autor debe haber accedido o permanecido en el sistema. La permanencia fraudulenta puede producirse incluso cuando el acceso inicial fue legítimo (ej. un empleado que continúa accediendo tras su cese).
-- **Fraudulento:** El acceso debe realizarse sin autorización o mediante maniobras engañosas (suplantación de identidad, uso de credenciales robadas, explotación de vulnerabilidades).
-- **Sistema de tratamiento automatizado de datos (STAD):** Concepto amplio que incluye servidores, sitios web, redes, etc.
+**Constituent elements:**
+- **Access or maintenance:** The perpetrator must have accessed or remained in the system. Fraudulent maintenance can occur even when the initial access was legitimate (e.g., an employee continuing to access after termination).
+- **Fraudulent:** Access must be without authorization or through deceptive maneuvers (identity theft, use of stolen credentials, exploitation of vulnerabilities).
+- **Automated data processing system (STAD):** Broad concept including servers, websites, networks, etc.
 
-**Agravante (Art. 323-1, al. 2):**
-> La pena se eleva a **cinco años de prisión y 150.000 € de multa** cuando la infracción ha causado la destrucción, alteración o deterioro de datos, o una perturbación del funcionamiento del sistema.
+**Aggravating circumstance (Art. 323-1, al. 2):**
+> The penalty is raised to **five years imprisonment and €150,000 fine** when the offense has caused destruction, alteration, or deterioration of data, or a disruption of system function.
 
-**Aplicación al caso X-VDP-X:**
-- Acceso a los paneles de administración de WordPress/Joomla de France Cyber Défense, Université d'Avignon y demás víctimas.
-- Mantenimiento en los sistemas para extraer bases de datos completas (usuarios, WooCommerce, citas).
-- Uso de credenciales robadas o explotación de vulnerabilidades (« configuration/admin mistake »).
-- **Calificación recomendada:** Art. 323-1, alínea 2 (agravado por extracción y alteración de datos).
+**Application to the X-VDP-X case:**
+- Access to WordPress/Joomla administration panels of France Cyber Défense, Université d'Avignon, and other victims.
+- Maintenance in systems to extract complete databases (users, WooCommerce, appointments).
+- Use of stolen credentials or exploitation of vulnerabilities ("configuration/admin mistake").
+- **Recommended classification:** Art. 323-1, paragraph 2 (aggravated by extraction and data alteration).
 
-**Jurisprudencia relevante:**
-La jurisprudencia ha aplicado el artículo 323-1 a casos de intrusión en servidores, pirateo de cuentas de correo electrónico y accesos no autorizados a sistemas de información empresariales. El simple hecho de conectarse a un sistema sin autorización constituye la infracción, independientemente de que se haya causado un daño adicional.
+**Relevant jurisprudence:**
+Jurisprudence has applied Article 323-1 to cases of server intrusion, email account hacking, and unauthorized access to corporate information systems. The mere act of connecting to a system without authorization constitutes the offense, regardless of whether additional damage was caused.
 
 ---
 
-#### 2.2 Entorpecimiento o falseamiento del funcionamiento de un STAD (Art. 323-2)
+#### 2.2 Impeding or Distorting the Functioning of an STAD (Art. 323-2)
 
-**Texto del artículo:**
+**Article text:**
 > *« Le fait d'entraver ou de fausser le fonctionnement d'un système de traitement automatisé de données est puni de cinq ans d'emprisonnement et de 150 000 euros d'amende. »*
 
-**Elementos constitutivos:**
-- **Entorpecimiento o falseamiento:** Toda acción que perturbe el funcionamiento normal del sistema, incluyendo la denegación de servicio, la inyección de código malicioso, o la modificación de la configuración.
-- **Carácter fraudulento:** La acción debe ser intencional y sin autorización.
+**Constituent elements:**
+- **Impeding or distorting:** Any action that disrupts the normal functioning of the system, including denial of service, malicious code injection, or configuration modification.
+- **Fraudulent nature:** The action must be intentional and without authorization.
 
-**Aplicación al caso X-VDP-X:**
-- **Defacements** de las páginas de inicio (reemplazo del contenido por « HACKED BY X-VDP-X »).
-- Modificación de archivos del CMS que alteran la presentación y funcionalidad del sitio.
-- Posible inyección de scripts o código malicioso en los sitios comprometidos.
+**Application to the X-VDP-X case:**
+- **Defacements** of homepages (replacement of content with « HACKED BY X-VDP-X »).
+- Modification of CMS files that alter the presentation and functionality of the site.
+- Possible injection of scripts or malicious code on compromised sites.
 
-**Jurisprudencia relevante:**
-La jurisprudencia asimila al entorpecimiento del funcionamiento toda modificación no autorizada que afecte a la disponibilidad, integridad o confidencialidad del sistema. El simple defacement constituye una infracción tipificada en este artículo.
+**Relevant jurisprudence:**
+Jurisprudence assimilates any unauthorized modification affecting the availability, integrity, or confidentiality of the system as impeding its functioning. Simple defacement constitutes an offense typified under this article.
 
 ---
 
-#### 2.3 Introducción, extracción, supresión o modificación fraudulenta de datos (Art. 323-3)
+#### 2.3 Fraudulent Introduction, Extraction, Deletion, or Modification of Data (Art. 323-3)
 
-**Texto del artículo:**
+**Article text:**
 > *« Le fait d'introduire frauduleusement des données dans un système de traitement automatisé ou de supprimer ou de modifier frauduleusement les données qu'il contient est puni de cinq ans d'emprisonnement et de 150 000 euros d'amende. »*
 
-**Evolución legislativa:**
-El **vol de datos informáticos** solo ha sido considerado específicamente por el artículo 323-3 desde **2014**. Anteriormente, el texto solo sancionaba la introducción, supresión o modificación de datos. La reforma de 2014 añadió explícitamente la **extracción** de datos.
+**Legislative evolution:**
+The **theft of computer data** was only specifically considered under Article 323-3 since **2014**. Previously, the text only penalized the introduction, deletion, or modification of data. The 2014 reform explicitly added **extraction** of data.
 
-**Texto actual completo (art. 323-3):**
+**Current complete text (art. 323-3):**
 > *« Le fait d'introduire frauduleusement des données dans un système de traitement automatisé, **d'extraire, de détenir, de reproduire, de transmettre,** de supprimer ou de modifier frauduleusement les données qu'il contient est puni de cinq ans d'emprisonnement et de 150 000 euros d'amende. »*
 
-**Elementos constitutivos:**
-- **Introducción fraudulenta:** Inserción de datos falsos o no autorizados.
-- **Extracción:** Copia o traslado de datos fuera del sistema (exfiltración).
-- **Detención:** Posesión de los datos extraídos.
-- **Reproducción/Transmisión:** Duplicación o difusión de los datos.
-- **Supresión/Modificación:** Alteración o eliminación de datos existentes.
+**Constituent elements:**
+- **Fraudulent introduction:** Insertion of false or unauthorized data.
+- **Extraction:** Copying or transferring data outside the system (exfiltration).
+- **Detention:** Possession of extracted data.
+- **Reproduction/Transmission:** Duplication or dissemination of data.
+- **Deletion/Modification:** Alteration or deletion of existing data.
 
-**Aplicación al caso X-VDP-X:**
-- **Extracción** de bases de datos completas (usuarios, WooCommerce, citas, configuraciones).
-- **Detención** de los archivos exfiltrados (`wp-config.php`, `users.txt`, `s3_credentials.txt`, etc.).
-- **Transmisión** mediante publicación en redes sociales y oferta de venta en Telegram.
-- **Modificación** de archivos del sitio (defacement).
-- **Calificación recomendada:** Art. 323-3 (infracción principal, dado el volumen y naturaleza de los datos exfiltrados).
+**Application to the X-VDP-X case:**
+- **Extraction** of complete databases (users, WooCommerce, appointments, configurations).
+- **Detention** of exfiltrated files (`wp-config.php`, `users.txt`, `s3_credentials.txt`, etc.).
+- **Transmission** through publication on social networks and sale offers on Telegram.
+- **Modification** of site files (defacement).
+- **Recommended classification:** Art. 323-3 (main offense, given the volume and nature of exfiltrated data).
 
-**Nota importante:** La extracción de datos **sin autorización** constituye la infracción, independientemente de que los datos sean confidenciales o no. La calificación se agrava cuando los datos son de naturaleza personal o sensible.
+**Important note:** The extraction of data **without authorization** constitutes the offense, regardless of whether the data is confidential or not. The classification is aggravated when the data is of a personal or sensitive nature.
 
 ---
 
-#### 2.4 Agravantes generales (Arts. 323-4, 323-4-1, 323-6)
+#### 2.4 General Aggravating Circumstances (Arts. 323-4, 323-4-1, 323-6)
 
-##### 2.4.1 Banda organizada (Art. 323-4-1)
+##### 2.4.1 Organized Gang (Art. 323-4-1)
 
-**Texto:**
+**Text:**
 > *« Lorsque les infractions prévues aux articles 323-1 à 323-3-1 ont été commises en bande organisée, la peine est portée à dix ans d'emprisonnement et à 300 000 euros d'amende. »*
 
-**Definición de « banda organizada » (Art. 132-71):**
-> Toda asociación, cualquiera que sea su duración, establecida con vistas a la preparación de una o varias infracciones, caracterizada por uno o varios hechos materiales.
+**Definition of « organized gang » (Art. 132-71):**
+> Any association, regardless of duration, established with a view to preparing one or more offenses, characterized by one or more material acts.
 
-**Aplicación al caso X-VDP-X:**
-- Si se demuestra que X-VDP-X actúa con uno o varios cómplices (colectivo).
-- La prueba puede basarse en la pluralidad de atacantes, la coordinación de las acciones, o la existencia de una estructura organizada (canal Telegram, reparto de tareas).
+**Application to the X-VDP-X case:**
+- If it is demonstrated that X-VDP-X acts with one or more accomplices (collective).
+- Evidence may be based on the plurality of attackers, coordination of actions, or the existence of an organized structure (Telegram channel, division of tasks).
 
-##### 2.4.2 Atentado contra los intereses fundamentales de la Nación (Art. 323-6)
+##### 2.4.2 Attack on the Fundamental Interests of the Nation (Art. 323-6)
 
-**Texto:**
+**Text:**
 > *« Les infractions prévues aux articles 323-1 à 323-5 sont punies des peines portées à dix ans d'emprisonnement et à 1 000 000 d'euros d'amende lorsqu'elles ont porté atteinte à un système de traitement automatisé de données intéressant la défense nationale, la sûreté de l'État ou la sécurité publique, ou dont la violation est de nature à compromettre la souveraineté nationale. »*
 
-**Aplicación al caso X-VDP-X:**
-- France Cyber Défense es un **prestador de servicios de ciberseguridad** que puede tener contratos con entidades gubernamentales o militares.
-- Si la brecha afecta a sistemas que contienen datos sensibles para la defensa nacional o la seguridad del Estado, esta agravante podría ser aplicable.
-- La calificación requerirá una investigación para determinar la naturaleza exacta de los datos comprometidos.
+**Application to the X-VDP-X case:**
+- France Cyber Défense is a **cybersecurity service provider** that may have contracts with government or military entities.
+- If the breach affects systems containing sensitive data for national defense or state security, this aggravating factor could apply.
+- Classification would require an investigation to determine the exact nature of the compromised data.
 
-##### 2.4.3 Atentado contra sistemas de interés general (Art. 323-4-1)
+##### 2.4.3 Attack on Systems of General Interest (Art. 323-4-1)
 
-**Texto:**
-> Cuando las infracciones previstas en los artículos 323-1 a 323-3-1 se cometen contra un sistema de tratamiento automatizado de datos de un **operador de servicios esenciales** (OSE) o de un **operador de importancia vital** (OIV), la pena se eleva a **siete años de prisión y 300.000 € de multa**.
+**Text:**
+> When the offenses provided for in articles 323-1 to 323-3-1 are committed against an automated data processing system of an **essential services operator** (OSE) or a **vital importance operator** (OIV), the penalty is raised to **seven years imprisonment and €300,000 fine**.
 
-**Aplicación al caso:**
-- France Cyber Défense, en su calidad de prestador de ciberseguridad, podría ser calificado como OSE u OIV.
-- Las universidades (Avignon, Paris 13) pueden estar vinculadas a servicios esenciales (educación, investigación).
+**Application to the case:**
+- France Cyber Défense, as a cybersecurity provider, could be classified as OSE or OIV.
+- Universities (Avignon, Paris 13) may be linked to essential services (education, research).
 
 ---
 
-### 3. OTROS DELITOS POTENCIALMENTE APLICABLES
+### 3. OTHER POTENTIALLY APPLICABLE OFFENSES
 
-#### 3.1 Violación de datos personales y privacidad (Arts. 226-1 a 226-7 + RGPD + Ley Informatique et Libertés)
+#### 3.1 Violation of Personal Data and Privacy (Arts. 226-1 to 226-7 + GDPR + Informatique et Libertés Law)
 
-**Art. 226-16 del Código Penal:**
+**Art. 226-16 of the Penal Code:**
 > *« Le fait, y compris par négligence, de procéder ou de faire procéder à des traitements de données à caractère personnel sans qu'aient été respectées les […] prévues par la loi est puni de cinq ans d'emprisonnement et de 300 000 euros d'amende. »*
 
-**Aplicación al caso X-VDP-X:**
-- **Recogida fraudulenta:** Extracción de datos personales (nombres, correos electrónicos, información de clientes) sin consentimiento.
-- **Detención y difusión:** Posesión de los datos y publicación de pruebas en redes sociales.
-- **Transmisión:** Oferta de venta de bases de datos en canales Telegram.
+**Application to the X-VDP-X case:**
+- **Fraudulent collection:** Extraction of personal data (names, emails, customer information) without consent.
+- **Detention and dissemination:** Possession of data and publication of evidence on social media.
+- **Transmission:** Offering databases for sale on Telegram channels.
 
-**Sanciones administrativas adicionales (CNIL):**
-La CNIL puede imponer sanciones administrativas por violación del RGPD, que pueden alcanzar:
-- **10 millones de euros** o **2 % del volumen de negocios anual mundial** (para empresas).
-- **Hasta 300.000 €** para personas físicas.
+**Additional administrative sanctions (CNIL):**
+CNIL may impose administrative sanctions for GDPR violations, which can reach:
+- **10 million euros** or **2% of annual worldwide turnover** (for companies).
+- **Up to €300,000** for individuals.
 
-#### 3.2 Receptación de bienes obtenidos mediante delito (Art. 321-1)
+#### 3.2 Receiving Stolen Goods Obtained Through Crime (Art. 321-1)
 
-**Texto:**
+**Text:**
 > *« Le fait de receler, de détenir, de transmettre ou d'utiliser des biens provenant d'un délit ou d'un crime est puni de cinq ans d'emprisonnement et de 375 000 euros d'amende. »*
 
-**Aplicación al caso:**
-- Posesión y transmisión de datos exfiltrados (bases de datos, archivos de configuración, credenciales).
-- Oferta de venta de los datos en foros clandestinos o canales de Telegram.
+**Application to the case:**
+- Possession and transmission of exfiltrated data (databases, configuration files, credentials).
+- Offering data for sale on underground forums or Telegram channels.
 
-#### 3.3 Extorsión o tentativa de extorsión (Art. 313-1 y ss.)
+#### 3.3 Extortion or Attempted Extortion (Art. 313-1 et seq.)
 
-**Texto:**
+**Text:**
 > *« L'extorsion est le fait d'obtenir par violence, menace de violence ou contrainte, soit une signature, un engagement ou une renonciation, soit la remise d'un bien, soit des fonds, des valeurs ou un bien quelconque. »*
 
-**Aplicación al caso:**
-- Si X-VDP-X exige un pago a cambio de no publicar los datos exfiltrados o para restaurar el sitio.
-- La prueba de la extorsión puede basarse en mensajes o comunicaciones del actor.
+**Application to the case:**
+- If X-VDP-X demands payment in exchange for not publishing the exfiltrated data or to restore the site.
+- Evidence of extortion may be based on messages or communications from the actor.
 
-#### 3.4 Daños informáticos (Art. 322-1 y ss.)
+#### 3.4 Computer Damage (Art. 322-1 et seq.)
 
-**Aplicación al caso:**
-- Si el actor ha causado daños materiales (pérdida de datos, costes de restauración, interrupción de la actividad).
-- El perjuicio económico para las víctimas puede ser evaluado y reclamado en sede civil.
-
----
-
-### 4. CUADRO RESUMEN DE PENAS
-
-| Infracción | Artículo | Pena base | Agravante (banda organizada) | Agravante (intereses nacionales) |
-|------------|----------|-----------|------------------------------|----------------------------------|
-| Acceso fraudulento | 323-1 | 3 años / 100.000 € | 10 años / 300.000 € | 10 años / 1.000.000 € |
-| Acceso fraudulento con daño | 323-1 al.2 | 5 años / 150.000 € | 10 años / 300.000 € | 10 años / 1.000.000 € |
-| Entorpecimiento del funcionamiento | 323-2 | 5 años / 150.000 € | 10 años / 300.000 € | 10 años / 1.000.000 € |
-| Atentado contra datos (extracción, etc.) | 323-3 | 5 años / 150.000 € | 10 años / 300.000 € | 10 años / 1.000.000 € |
-| Puesta a disposición de herramientas | 323-3-1 | 5 años / 150.000 € | 10 años / 300.000 € | 10 años / 1.000.000 € |
-| Violación de datos personales | 226-16 | 5 años / 300.000 € | — | — |
-| Receptación | 321-1 | 5 años / 375.000 € | — | — |
-| Extorsión | 313-1 | 7 años / 100.000 € | — | — |
-
-**Fuente:** Elaboración propia a partir de los arts. 323-1 a 323-6 del Código Penal.
+**Application to the case:**
+- If the actor has caused material damage (data loss, restoration costs, activity interruption).
+- The economic harm to victims may be assessed and claimed in civil court.
 
 ---
 
-### 5. AUTORIDADES COMPETENTES Y PROCEDIMIENTO
+### 4. SUMMARY TABLE OF PENALTIES
 
-#### 5.1 Autoridades de investigación y persecución
+| Offense | Article | Base penalty | Aggravated (organized gang) | Aggravated (national interests) |
+|---------|---------|--------------|------------------------------|----------------------------------|
+| Fraudulent access | 323-1 | 3 years / €100,000 | 10 years / €300,000 | 10 years / €1,000,000 |
+| Fraudulent access with damage | 323-1 al.2 | 5 years / €150,000 | 10 years / €300,000 | 10 years / €1,000,000 |
+| Impeding system function | 323-2 | 5 years / €150,000 | 10 years / €300,000 | 10 years / €1,000,000 |
+| Data attack (extraction, etc.) | 323-3 | 5 years / €150,000 | 10 years / €300,000 | 10 years / €1,000,000 |
+| Providing attack tools | 323-3-1 | 5 years / €150,000 | 10 years / €300,000 | 10 years / €1,000,000 |
+| Personal data violation | 226-16 | 5 years / €300,000 | — | — |
+| Receiving stolen goods | 321-1 | 5 years / €375,000 | — | — |
+| Extortion | 313-1 | 7 years / €100,000 | — | — |
 
-| Autoridad | Competencia | Contacto |
-|-----------|-------------|----------|
-| **OCLCTIC** (Office Central de Lutte contre la Criminalité liée aux Technologies de l'Information et de la Communication) | Investigación de delitos informáticos a nivel nacional | 101 rue des Trois Fontanot, 92000 Nanterre |
-| **OFAC** (Office Anti-Cybercriminalité) | Nueva denominación de la OCLCTIC | Misma dirección |
-| **Section Cybercriminalité du Parquet de Paris** | Instrucción y persecución de delitos cibernéticos | Tribunal Judicial de París |
-| **JIRS** (Juridictions Interrégionales Spécialisées) | Competencia para casos complejos de criminalidad organizada | Varias sedes en Francia |
-| **ANSSI** (Agence Nationale de la Sécurité des Systèmes d'Information) | Alerta técnica, asistencia a víctimas, certificación | cyber.gouv.fr |
-| **CERT-FR** | Centro de respuesta a incidentes de seguridad | CERT-FR |
-
-#### 5.2 Procedimiento recomendado
-
-1. **Depósito de denuncia:** La víctima (France Cyber Défense) debe presentar denuncia ante el fiscal del Tribunal Judicial de París o ante la OCLCTIC.
-
-2. **Aseguramiento de pruebas:**
-   - Capturas de pantalla de las reivindicaciones en X (@xvdpx6) y Telegram (@diablefire).
-   - Registro de los defacements y archivos modificados.
-   - Logs de acceso al servidor comprometido.
-   - Análisis forense del sistema para determinar el vector de entrada.
-
-3. **Notificaciones obligatorias:**
-   - **CNIL:** En caso de violación de datos personales (dentro de las 72 horas siguientes al conocimiento del incidente).
-   - **ANSSI:** Para incidentes que afecten a operadores de servicios esenciales (NIS2).
-
-4. **Cooperación internacional:** Si el actor opera desde Francia (como parece indicar su ubicación autodeclarada en París), la cooperación con las autoridades francesas será directa. Si se descubre que opera desde el extranjero, será necesaria la cooperación judicial internacional (MLAT, Eurojust).
+**Source:** Own elaboration based on arts. 323-1 to 323-6 of the Penal Code.
 
 ---
 
-### 6. ANÁLISIS DE LA CALIFICACIÓN JURÍDICA RECOMENDADA PARA EL CASO FRANCE CYBER DÉFENSE
+### 5. COMPETENT AUTHORITIES AND PROCEDURE
 
-#### 6.1 Infracciones principales
+#### 5.1 Investigating and Prosecuting Authorities
 
-| N° | Infracción | Artículo | Fundamento |
-|----|------------|----------|------------|
-| 1 | Acceso y mantenimiento fraudulento | 323-1 al.2 | Acceso a los paneles de administración y mantenimiento para extraer datos |
-| 2 | Extracción fraudulenta de datos | 323-3 | Exfiltración de bases de datos completas (usuarios, WooCommerce, configuraciones) |
-| 3 | Modificación fraudulenta de datos | 323-3 | Defacement y alteración de archivos del sitio |
-| 4 | Entorpecimiento del funcionamiento | 323-2 | Defacement que afecta a la disponibilidad del sitio |
+| Authority | Competence | Contact |
+|-----------|------------|---------|
+| **OCLCTIC** (Central Office for the Fight against Crime related to Information and Communication Technologies) | Investigation of computer crimes at national level | 101 rue des Trois Fontanot, 92000 Nanterre |
+| **OFAC** (Anti-Cybercrime Office) | New designation of OCLCTIC | Same address |
+| **Section Cybercriminalité du Parquet de Paris** | Investigation and prosecution of cybercrimes | Paris Judicial Court |
+| **JIRS** (Interregional Specialized Jurisdictions) | Competence for complex organized crime cases | Several locations in France |
+| **ANSSI** (National Agency for Information Systems Security) | Technical alert, victim assistance, certification | cyber.gouv.fr |
+| **CERT-FR** | Security incident response center | CERT-FR |
 
-#### 6.2 Circunstancias agravantes potenciales
+#### 5.2 Recommended Procedure
 
-- **Banda organizada (Art. 323-4-1):** Si se demuestra que X-VDP-X actúa con cómplices.
-- **Atentado contra sistema de interés general (Art. 323-4-1):** France Cyber Défense, como prestador de ciberseguridad, puede ser calificado como OSE u OIV.
-- **Atentado contra intereses fundamentales de la Nación (Art. 323-6):** Si los datos comprometidos afectan a la defensa nacional o la seguridad del Estado.
+1. **Filing a complaint:** The victim (France Cyber Défense) must file a complaint with the prosecutor of the Paris Judicial Court or with OCLCTIC.
 
-#### 6.3 Infracciones secundarias
+2. **Evidence preservation:**
+   - Screenshots of claims on X (@xvdpx6) and Telegram (@diablefire).
+   - Records of defacements and modified files.
+   - Access logs to the compromised server.
+   - Forensic analysis of the system to determine the entry vector.
 
-- **Violación de datos personales (Art. 226-16):** Exfiltración de datos personales de usuarios y clientes.
-- **Receptación (Art. 321-1):** Posesión y transmisión de los datos exfiltrados.
-- **Extorsión (Art. 313-1):** Si se demuestra que el actor exige un pago.
+3. **Mandatory notifications:**
+   - **CNIL:** In case of personal data breach (within 72 hours of becoming aware of the incident).
+   - **ANSSI:** For incidents affecting essential services operators (NIS2).
 
-#### 6.4 Penas máximas acumulables
-
-En aplicación del principio de **acumulación de penas** (concours réel d'infractions), las penas previstas para cada infracción pueden acumularse, dentro del límite del **máximo legal** (art. 132-2 del Código Penal). En el caso de X-VDP-X, la acumulación de las infracciones principales y agravantes podría resultar en una pena de **hasta 10 años de prisión y 1.000.000 € de multa** (o más en caso de extorsión).
-
----
-
-### 7. REFERENCIAS LEGALES
-
-| Texto | Referencia | Contenido |
-|-------|------------|-----------|
-| Código Penal, art. 323-1 | LEGIARTI000030939438 | Acceso fraudulento a STAD |
-| Código Penal, art. 323-2 | LEGIARTI000030939443 | Entorpecimiento del funcionamiento |
-| Código Penal, art. 323-3 | LEGIARTI000030939448 | Atentado contra datos |
-| Código Penal, art. 323-4-1 | LEGIARTI000030939453 | Agravante de banda organizada |
-| Código Penal, art. 323-6 | LEGIARTI000030939463 | Agravante de intereses nacionales |
-| Código Penal, art. 226-16 | LEGIARTI000030939438 | Violación de datos personales |
-| Ley Godfrain n° 88-19 | 5 de enero de 1988 | Ley fundacional sobre delitos informáticos |
-| Ley LOPPSI 2 | 14 de marzo de 2011 | Refuerzo de las sanciones |
-| RGPD (UE) 2016/679 | 27 de abril de 2016 | Protección de datos personales |
+4. **International cooperation:** If the actor operates from France (as suggested by their self-declared location in Paris), cooperation with French authorities will be direct. If found to operate from abroad, international judicial cooperation (MLAT, Eurojust) will be necessary.
 
 ---
 
-### 8. GLOSARIO JURÍDICO
+### 6. ANALYSIS OF THE RECOMMENDED LEGAL CLASSIFICATION FOR THE FRANCE CYBER DÉFENSE CASE
 
-| Término | Definición |
-|---------|------------|
-| **STAD** | Système de Traitement Automatisé de Données — Sistema de tratamiento automatizado de datos |
-| **OIV** | Opérateur d'Importance Vitale — Operador de importancia vital (infraestructura crítica) |
-| **OSE** | Opérateur de Services Essentiels — Operador de servicios esenciales (NIS2) |
+#### 6.1 Main Offenses
+
+| No. | Offense | Article | Basis |
+|-----|---------|---------|-------|
+| 1 | Fraudulent access and maintenance | 323-1 al.2 | Access to administration panels and maintenance to extract data |
+| 2 | Fraudulent data extraction | 323-3 | Exfiltration of complete databases (users, WooCommerce, configurations) |
+| 3 | Fraudulent data modification | 323-3 | Defacement and alteration of site files |
+| 4 | Impeding system function | 323-2 | Defacement affecting site availability |
+
+#### 6.2 Potential Aggravating Circumstances
+
+- **Organized gang (Art. 323-4-1):** If it is demonstrated that X-VDP-X acts with accomplices.
+- **Attack on system of general interest (Art. 323-4-1):** France Cyber Défense, as a cybersecurity provider, may be classified as OSE or OIV.
+- **Attack on fundamental interests of the Nation (Art. 323-6):** If compromised data affects national defense or state security.
+
+#### 6.3 Secondary Offenses
+
+- **Personal data violation (Art. 226-16):** Exfiltration of personal data of users and clients.
+- **Receiving stolen goods (Art. 321-1):** Possession and transmission of exfiltrated data.
+- **Extortion (Art. 313-1):** If it is demonstrated that the actor demands payment.
+
+#### 6.4 Maximum Cumulative Penalties
+
+In application of the principle of **cumulative penalties** (concours réel d'infractions), the penalties provided for each offense may be accumulated, within the limit of the **legal maximum** (art. 132-2 of the Penal Code). In the case of X-VDP-X, the accumulation of principal offenses and aggravating circumstances could result in a penalty of **up to 10 years imprisonment and €1,000,000 fine** (or more in case of extortion).
+
+---
+
+### 7. LEGAL REFERENCES
+
+| Text | Reference | Content |
+|------|-----------|---------|
+| Penal Code, art. 323-1 | LEGIARTI000030939438 | Fraudulent access to STAD |
+| Penal Code, art. 323-2 | LEGIARTI000030939443 | Impeding system function |
+| Penal Code, art. 323-3 | LEGIARTI000030939448 | Data attack |
+| Penal Code, art. 323-4-1 | LEGIARTI000030939453 | Organized gang aggravating circumstance |
+| Penal Code, art. 323-6 | LEGIARTI000030939463 | National interests aggravating circumstance |
+| Penal Code, art. 226-16 | LEGIARTI000030939438 | Personal data violation |
+| Godfrain Law No. 88-19 | January 5, 1988 | Foundational law on computer crimes |
+| LOPPSI 2 Law | March 14, 2011 | Reinforcement of sanctions |
+| GDPR (EU) 2016/679 | April 27, 2016 | Personal data protection |
+
+---
+
+### 8. LEGAL GLOSSARY
+
+| Term | Definition |
+|------|------------|
+| **STAD** | Système de Traitement Automatisé de Données — Automated data processing system |
+| **OIV** | Opérateur d'Importance Vitale — Vital importance operator (critical infrastructure) |
+| **OSE** | Opérateur de Services Essentiels — Essential services operator (NIS2) |
 | **OCLCTIC** | Office Central de Lutte contre la Criminalité liée aux Technologies de l'Information et de la Communication |
-| **OFAC** | Office Anti-Cybercriminalité (nueva denominación de la OCLCTIC) |
-| **JIRS** | Juridiction Interrégionale Spécialisée — Jurisdicción interregional especializada |
-| **CNIL** | Commission Nationale de l'Informatique et des Libertés — Autoridad de protección de datos |
-| **ANSSI** | Agence Nationale de la Sécurité des Systèmes d'Information — Agencia nacional de seguridad de sistemas de información |
-| **CERT-FR** | Computer Emergency Response Team France — Centro de respuesta a incidentes |
-| **Concours réel d'infractions** | Acumulación real de infracciones — Pluralidad de delitos cometidos por el mismo autor |
+| **OFAC** | Office Anti-Cybercriminalité (new designation of OCLCTIC) |
+| **JIRS** | Juridiction Interrégionale Spécialisée — Interregional specialized jurisdiction |
+| **CNIL** | Commission Nationale de l'Informatique et des Libertés — Data protection authority |
+| **ANSSI** | Agence Nationale de la Sécurité des Systèmes d'Information — National Agency for Information Systems Security |
+| **CERT-FR** | Computer Emergency Response Team France — Incident response center |
+| **Concours réel d'infractions** | Real accumulation of offenses — Plurality of offenses committed by the same perpetrator |
 
 ---
 
-Tienes toda la razón, colega. ¡Perdón! La sección 9 la he metido dentro del Anexo Jurídico, que es un bloque separado después del informe principal. Está al final del documento completo, justo después de la sección 8 y antes del glosario.
+**End of Legal Annex**
 
-Te copio **SOLO ESA SECCIÓN** del documento que te he pasado antes:
-
----
-
-## 9. FUENTES Y REFERENCIAS
-
-| Fuente | Enlace | Tipo |
-|--------|--------|------|
-| DefacerID — Cyber Attack Reports | https://www.defacer.id | Registro de defacements |
-| FrenchBreaches — France Cyber Défense | https://frenchbreaches.com/alertes/france-cyber-d-fense-mrxd8ygo8ndtxqd9jt3 | Análisis de brecha |
-| FrenchBreaches — Université d'Avignon | https://frenchbreaches.com/alertes/universit-d-avignon-mrxhevofqu9spqmlhu | Análisis de brecha |
-| Brinztech — WSIP Breach | https://www.brinztech.com/breach-alerts/ | Alerta de venta de datos |
-| OSINTxLab | https://www.osintxlab.com | Agregador de amenazas |
-| ANSSI | https://cyber.gouv.fr | Agencia nacional de seguridad |
-| **Este dossier (GitHub)** | **https://github.com/Condor2026/cti-xv-dpx** | **Repositorio oficial** |
+*This document constitutes a preliminary legal analysis based on the current French Penal Code and available jurisprudential and doctrinal sources. The final classification of the facts is the responsibility of the competent judicial authorities following the investigation of the case.*
 
 ---
 
-## 10. APÉNDICE — GLOSARIO DE TÉRMINOS
+**End of Report**
 
-| Término | Definición |
-|---------|------------|
-| **Defacement** | Alteración no autorizada del contenido visual de un sitio web |
-| **Data Breach** | Exfiltración no autorizada de datos sensibles |
-| **CMS** | Content Management System (Sistema de Gestión de Contenidos) |
-| **APT** | Advanced Persistent Threat (Amenaza Persistente Avanzada) |
-| **WAF** | Web Application Firewall (Cortafuegos de Aplicaciones Web) |
-| **MFA** | Multi-Factor Authentication (Autenticación Multifactor) |
-| **OIV** | Opérateur d'Importance Vitale (Operador de Importancia Vital) |
-| **IOC** | Indicator of Compromise (Indicador de Compromiso) |
+*This document has been prepared with information from open sources (OSINT) and threat intelligence analysis. Independent verification of the actor's claims is pending forensic confirmation.*
 
 ---
 
-**Esta es la sección final del informe principal** (sección 9 y 10). Después de eso, viene el **ANEXO JURÍDICO** que empieza con su propia numeración (1. INTRODUCCIÓN Y FUNDAMENTO JURÍDICO, etc.). Por eso no lo ves al final del README que te he pasado, porque el README tiene el informe + el anexo.
+## 📝 Update Log
 
-**Para tu GitHub, si quieres tener solo el informe sin el anexo**, puedes copiar desde el principio hasta la sección 10 y cortar el anexo. Pero te recomiendo mantenerlo todo porque el anexo es valioso para los expertos legales.
-
-**¿Quieres que te prepare el README.md definitivo con solo el informe (hasta la sección 10) o con todo incluido?** Dímelo y te lo preparo exacto.
-
-**Fin del Anexo Jurídico**
-
-*El presente documento constituye un análisis jurídico preliminar basado en el Código Penal francés vigente y las fuentes jurisprudenciales y doctrinales disponibles. La calificación definitiva de los hechos corresponde a las autoridades judiciales competentes tras la instrucción del caso.*
-
----
-
-**Fin del Informe**
-
-*Este documento ha sido elaborado con información de fuentes abiertas (OSINT) y análisis de inteligencia de amenazas. La verificación independiente de las reivindicaciones del actor está pendiente de confirmación forense.*
-
----
-
-## 📝 Registro de Actualizaciones
-
-- **v1.0 (23/07/2026):** Publicación inicial. Incluye perfil del actor, TTPs, listas de IOCs y contexto legal para la brecha de France Cyber Défense.
+- **v1.0 (23/07/2026):** Initial publication. Includes actor profile, TTPs, IOC lists, and legal context for the France Cyber Défense breach.
 
 ---
 
 **El Cóndor**  
-*"El conocimiento es el único arma que mejora con el uso. Mantente vigilante, mantente informado."*
+*"Knowledge is the only weapon that improves with use. Stay vigilant, stay informed."*
 
 ---
