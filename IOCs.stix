@@ -7,8 +7,8 @@
       "type": "indicator",
       "id": "indicator--a1b2c3d4-e5f6-7890-abcd-ef1234567890",
       "spec_version": "2.1",
-      "name": "IP de C2 / Servidor de defacement X-VDP-X",
-      "description": "IP asociada al actor X-VDP-X (diable'fire) en ataques contra France Cyber Défense y otras entidades francesas.",
+      "name": "X-VDP-X C2 / Defacement Server IP",
+      "description": "IP associated with X-VDP-X (diable'fire) in attacks against France Cyber Défense and other French entities.",
       "pattern": "[ipv4-addr:value = '46.235.180.85']",
       "pattern_type": "stix",
       "valid_from": "2026-07-23T00:00:00Z",
@@ -24,8 +24,8 @@
       "type": "indicator",
       "id": "indicator--b2c3d4e5-f6a7-8901-bcde-f23456789012",
       "spec_version": "2.1",
-      "name": "URL de defacement de X-VDP-X",
-      "description": "URL que muestra el defacement con la firma del actor.",
+      "name": "X-VDP-X Defacement URL",
+      "description": "URL showing the defacement with the actor's signature.",
       "pattern": "[url:value = 'https://2025.lespartisans.ch/media/com_pagebuilderck/gfonts/hacked.html']",
       "pattern_type": "stix",
       "valid_from": "2026-07-23T00:00:00Z",
@@ -41,12 +41,97 @@
       "type": "indicator",
       "id": "indicator--c3d4e5f6-a7b8-9012-cdef-345678901234",
       "spec_version": "2.1",
-      "name": "Patrón de texto en defacements",
-      "description": "Firma textual utilizada por X-VDP-X en todos sus defacements.",
+      "name": "Text Pattern in Defacements",
+      "description": "Textual signature used by X-VDP-X in all their defacements.",
       "pattern": "[file:name = 'HACKED BY X-VDP-X'] OR [artifact:payload_bin = 'diable\'fire — Team: X-VDP-X']",
       "pattern_type": "stix",
       "valid_from": "2026-07-23T00:00:00Z",
       "labels": ["malicious-activity", "defacement"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f4e5d6c7-b8a9-0123-cdef-456789012345",
+      "spec_version": "2.1",
+      "name": "X-VDP-X Telegram User ID",
+      "description": "Telegram user ID associated with diable'fire (@diablefire).",
+      "pattern": "[user-account:user_id = '6321438384']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["malicious-activity", "actor-identity"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e5d6c7f8-b9a0-1234-def5-678901234567",
+      "spec_version": "2.1",
+      "name": "X-VDP-X Telegram Channel ID",
+      "description": "Telegram channel ID for 'Team X_VDP_X'.",
+      "pattern": "[user-account:user_id = '3280873247']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["malicious-activity", "actor-identity"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a7b8c9d0-e1f2-3456-7890-abcdef123456",
+      "spec_version": "2.1",
+      "name": "Exfiltrated File - wp-config.php",
+      "description": "WordPress configuration file exfiltrated by X-VDP-X containing database credentials.",
+      "pattern": "[file:name = 'wp-config.php'] AND [file:hashes.MD5 = '']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["exfiltration", "credential-theft"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b8c9d0e1-f2a3-4567-8901-bcdef2345678",
+      "spec_version": "2.1",
+      "name": "Exfiltrated File - s3_credentials.txt",
+      "description": "AWS S3 credentials file exfiltrated by X-VDP-X.",
+      "pattern": "[file:name = 's3_credentials.txt'] AND [file:hashes.MD5 = '']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["exfiltration", "credential-theft"],
+      "external_references": [
+        {
+          "source_name": "GitHub",
+          "url": "https://github.com/Condor2026/cti-xv-dpx"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c9d0e1f2-a3b4-5678-9012-cdef3456789a",
+      "spec_version": "2.1",
+      "name": "Exfiltrated File - options_apikeys.txt",
+      "description": "API keys file exfiltrated by X-VDP-X.",
+      "pattern": "[file:name = 'options_apikeys.txt'] AND [file:hashes.MD5 = '']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-23T00:00:00Z",
+      "labels": ["exfiltration", "credential-theft"],
       "external_references": [
         {
           "source_name": "GitHub",
@@ -60,7 +145,7 @@
       "spec_version": "2.1",
       "name": "X-VDP-X",
       "aliases": ["diable'fire", "diablefire", "Diable Fire"],
-      "description": "Actor individual o pequeño colectivo con base autodeclarada en París, especializado en defacements y exfiltración de datos de CMS vulnerables.",
+      "description": "Individual or small collective with self-declared base in Paris, specializing in defacements and data exfiltration from vulnerable CMS.",
       "labels": ["defacer", "script-kiddie"],
       "confidence": 60,
       "sophistication": "medium-low",
@@ -77,6 +162,22 @@
       "spec_version": "2.1",
       "relationship_type": "indicates",
       "source_ref": "indicator--a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "target_ref": "threat-actor--d4e5f6a7-b8c9-0123-def4-567890123456"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f6a7b8c9-d0e1-2345-ef67-890123456789",
+      "spec_version": "2.1",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "target_ref": "threat-actor--d4e5f6a7-b8c9-0123-def4-567890123456"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--a7b8c9d0-e1f2-3456-7890-abcdef123457",
+      "spec_version": "2.1",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c3d4e5f6-a7b8-9012-cdef-345678901234",
       "target_ref": "threat-actor--d4e5f6a7-b8c9-0123-def4-567890123456"
     }
   ]
