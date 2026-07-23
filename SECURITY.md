@@ -42,7 +42,7 @@ Si necesitas comunicarte por razones de seguridad o coordinación con autoridade
 
 - **Correo electrónico:** `KiraSecuruty@proton.me`
 - **Twitter/X:** `@PurpleCondors` (solo para coordinación profesional)
-- **Telegram:** Privado (solicitar por correo)
+- **Telegram:** Privado 
 
 ---
 
