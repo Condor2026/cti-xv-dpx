@@ -1,4 +1,20 @@
 # 🧠 Dossier CTI: X-VDP-X (diable'fire) — Actor que apunta a entidades francesas mediante explotación de CMS
+![Dossier CTI](https://img.shields.io/badge/Dossier-CTI-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![License](https://badgen.net/badge/license/MIT/blue)
+![Language](https://img.shields.io/badge/language-Spanish-blue)
+![OSINT](https://img.shields.io/badge/OSINT-Sí-brightgreen)
+![Threat Intel](https://img.shields.io/badge/Threat%20Intel-Enabled-blue)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT&CK-Mapped-orange)
+![IOCs](https://img.shields.io/badge/IOCs-Available-green)
+![Data Breach](https://img.shields.io/badge/Data%20Breach-Analyzed-red)
+![French Law](https://img.shields.io/badge/French%20Law-Contextualized-blueviolet)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=X-VDP-X+%7C+diable'fire;France+Cyber+D%C3%A9fense+%7C+An%C3%A1lisis+CTI;OSINT+%7C+MITRE+ATT%26CK;IOCs+%7C+Marco+Legal+Franc%C3%A9s;Dossier+completo+para+la+comunidad" alt="Typing animation" />
+</p>
 
 ![DefenseFrance](CondorPandaDefense.jpg)
 
