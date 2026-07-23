@@ -1,5 +1,7 @@
 # 🧠 Dossier CTI: X-VDP-X (diable'fire) — Actor que apunta a entidades francesas mediante explotación de CMS
 
+![DefenseFrance](CondorPandaDefense.jpg)
+
 **Autor:** El Cóndor (@Panda_Sec_Intel)  
 **Fecha:** 23 de julio de 2026  
 **Estado:** Análisis activo / Inteligencia de fuentes abiertas (OSINT)  
