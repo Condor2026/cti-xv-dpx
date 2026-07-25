@@ -30,5 +30,5 @@ Thank you for helping to keep open-source intelligence alive!
 
 ---
 
-**Author:** El Cóndor (@Panda_Sec_Intel)  
+**Autor:** Condor2026 - Threat Security - **Andromeda Private Suite** - **PURPLETEAM** - **Defense** - **StopCiberAttack** - **Prevencion** - **Periodismo** - **Threat Intelligence**  🦅
 **Repository:** https://github.com/Condor2026/cti-xv-dpx
