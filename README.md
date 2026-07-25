@@ -19,7 +19,7 @@
 
 ![DefenseFrance](CondorPandaDefense.jpg)
 
-**Author:** El Cóndor (@Panda_Sec_Intel)  
+**Author:** El Cóndor (@PCondor2026) GitHub  
 **Date:** July 23, 2026  
 **Status:** Active Analysis / Open Source Intelligence (OSINT)  
 **License:** Free for defensive and research purposes
@@ -675,5 +675,5 @@ In application of the principle of **cumulative penalties** (concours réel d'in
 
 **El Cóndor**  
 *"Knowledge is the only weapon that improves with use. Stay vigilant, stay informed."*
-
+🦅  **Autor:** Condor2026 - Threat Security - **Andromeda Private Suite** - **PURPLETEAM** - **Defense** - **StopCiberAttack** - **Prevencion** - **Periodismo** - **Threat Intelligence**  🦅
 ---
