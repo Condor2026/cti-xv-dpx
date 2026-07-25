@@ -19,7 +19,7 @@
 
 ![DefenseFrance](CondorPandaDefense.jpg)
 
-**Author:** El Cóndor (@PCondor2026) GitHub  
+**Author:** El Cóndor (@Condor2026) GitHub  
 **Date:** July 23, 2026  
 **Status:** Active Analysis / Open Source Intelligence (OSINT)  
 **License:** Free for defensive and research purposes
