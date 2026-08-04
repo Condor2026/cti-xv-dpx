@@ -16,7 +16,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=X-VDP-X+%7C+diable'fire;France+Cyber+D%C3%A9fense+%7C+CTI+Analysis;OSINT+%7C+MITRE+ATT%26CK;IOCs+%7C+French+Legal+Framework;Complete+dossier+for+the+community" alt="Typing animation" />
 </p>
-![Condor2026](X-VDP-X_Dossier.png)
 
 ![DefenseFrance](CondorPandaDefense.jpg)
 
@@ -32,6 +31,9 @@
 > **This dossier is based exclusively on Open Source Intelligence (OSINT), public social media posts, and threat intelligence platforms.**
 > It is intended for the global cybersecurity community to understand the TTPs, improve defensive postures, and conduct proactive threat hunting.
 > The legal analysis provided is a contextual interpretation of public French law for educational purposes and does not constitute legal advice. All attributions are based on self-proclaimed claims by the threat actor.
+
+![Condor2026](X_VDP_X_Dossier.png)
+
 
 ---
 
