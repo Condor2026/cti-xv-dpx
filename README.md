@@ -16,7 +16,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=X-VDP-X+%7C+diable'fire;France+Cyber+D%C3%A9fense+%7C+CTI+Analysis;OSINT+%7C+MITRE+ATT%26CK;IOCs+%7C+French+Legal+Framework;Complete+dossier+for+the+community" alt="Typing animation" />
 </p>
-![DefenseFrance](X-VDP-X_Dossier.txt.png)
+![Condor2026](X-VDP-X_Dossier.png)
 
 ![DefenseFrance](CondorPandaDefense.jpg)
 
